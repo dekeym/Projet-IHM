@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="723" measuredH="625" mockupW="420" mockupH="573">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="585" measuredH="625" mockupW="282" mockupH="573">
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="303" y="52" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
@@ -172,11 +172,6 @@
         <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2249%2C391%2C217%2C412%22%20href%3D%22activit%25C3%25A9.bmml%22%20alt%3D%22activit%E9%22%20id%3D%2229%22/%3E</map>
         <size>13</size>
         <text>D%E9buter%20l%27activit%E9</text>
-      </controlProperties>
-    </control>
-    <control controlID="30" controlTypeID="com.balsamiq.mockups::StickyNote" x="614" y="211" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="30" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Popup%20pour%20s%E9lectionner%20un%20type%20d%27activit%E9</text>
       </controlProperties>
     </control>
   </controls>

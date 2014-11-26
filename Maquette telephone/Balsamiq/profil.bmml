@@ -98,11 +98,30 @@
         <text>Ville</text>
       </controlProperties>
     </control>
-    <control controlID="27" controlTypeID="com.balsamiq.mockups::TextInput" x="329" y="498" w="229" h="-1" measuredW="79" measuredH="25" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::TextInput" x="329" y="498" w="229" h="-1" measuredW="49" measuredH="25" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <borderColor>6710886</borderColor>
         <size>11</size>
-        <text>Adresse%20mail</text>
+        <text>Equipe</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="513" y="195" w="-1" h="-1" measuredW="36" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10066329</color>
+        <text>%E9diter</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Canvas" x="473" y="497" w="85" h="26" measuredW="100" measuredH="70" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>4555150</color>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Label" x="484" y="500" w="-1" h="-1" measuredW="63" measuredH="19" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>11</size>
+        <text>voir%20le%20profil</text>
       </controlProperties>
     </control>
   </controls>
