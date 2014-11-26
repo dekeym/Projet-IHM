@@ -28,24 +28,24 @@
         <text>St%E9phane%20Sanchez</text>
       </controlProperties>
     </control>
-    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="357" y="286" w="137" h="27" measuredW="47" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="357" y="311" w="137" h="27" measuredW="47" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <href>profil%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2254%2C234%2C191%2C261%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%227%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2254%2C259%2C191%2C286%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%227%22/%3E</map>
         <size>11</size>
         <text>Profil</text>
       </controlProperties>
     </control>
-    <control controlID="8" controlTypeID="com.balsamiq.mockups::Image" x="330" y="286" w="32" h="27" measuredW="77" measuredH="79" zOrder="6" locked="false" isInGroup="-1"/>
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="357" y="310" w="137" h="27" measuredW="89" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Image" x="330" y="311" w="32" h="27" measuredW="77" measuredH="79" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="357" y="356" w="137" h="27" measuredW="89" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <href>filActu%26bm%3BfilActu.bmml%26bm%3BfilActu.bmml%26bm%3BfilActu.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2254%2C258%2C191%2C285%22%20href%3D%22filActu.bmml%22%20alt%3D%22filActu%22%20id%3D%229%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2254%2C304%2C191%2C331%22%20href%3D%22filActu.bmml%22%20alt%3D%22filActu%22%20id%3D%229%22/%3E</map>
         <size>11</size>
         <text>Fil%20d%27actualit%E9</text>
       </controlProperties>
     </control>
-    <control controlID="10" controlTypeID="com.balsamiq.mockups::Image" x="330" y="310" w="32" h="27" measuredW="77" measuredH="79" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Image" x="330" y="356" w="32" h="27" measuredW="77" measuredH="79" zOrder="8" locked="false" isInGroup="-1"/>
     <control controlID="11" controlTypeID="com.balsamiq.mockups::Icon" x="329" y="159" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <href>index%26bm%3Bindex.bmml%26bm%3Bindex.bmml%26bm%3Bindex.bmml</href>
@@ -60,42 +60,60 @@
         <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22210%2C520%2C234%2C544%22%20href%3D%22index.bmml%22%20alt%3D%22index%22%20id%3D%2212%22/%3E</map>
       </controlProperties>
     </control>
-    <control controlID="13" controlTypeID="com.balsamiq.mockups::Button" x="357" y="334" w="137" h="27" measuredW="73" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Button" x="357" y="380" w="137" h="27" measuredW="73" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <href>historique%26bm%3Bhistorique.bmml%26bm%3Bhistorique.bmml%26bm%3Bhistorique.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2254%2C282%2C191%2C309%22%20href%3D%22historique.bmml%22%20alt%3D%22historique%22%20id%3D%2213%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2254%2C328%2C191%2C355%22%20href%3D%22historique.bmml%22%20alt%3D%22historique%22%20id%3D%2213%22/%3E</map>
         <size>11</size>
         <text>Historique</text>
       </controlProperties>
     </control>
-    <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="330" y="334" w="32" h="27" measuredW="77" measuredH="79" zOrder="12" locked="false" isInGroup="-1"/>
-    <control controlID="15" controlTypeID="com.balsamiq.mockups::Button" x="357" y="358" w="137" h="27" measuredW="49" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="330" y="380" w="32" h="27" measuredW="77" measuredH="79" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Button" x="357" y="404" w="137" h="27" measuredW="49" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <href>listeD%E9fis%26bm%3BlisteD%E9fis.bmml%26bm%3BlisteD%E9fis.bmml%26bm%3BlisteD%E9fis.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2254%2C306%2C191%2C333%22%20href%3D%22listeD%25C3%25A9fis.bmml%22%20alt%3D%22listeD%E9fis%22%20id%3D%2215%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2254%2C352%2C191%2C379%22%20href%3D%22listeD%25C3%25A9fis.bmml%22%20alt%3D%22listeD%E9fis%22%20id%3D%2215%22/%3E</map>
         <size>11</size>
         <text>D%E9fis</text>
       </controlProperties>
     </control>
-    <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="330" y="358" w="32" h="27" measuredW="77" measuredH="79" zOrder="14" locked="false" isInGroup="-1"/>
-    <control controlID="17" controlTypeID="com.balsamiq.mockups::Button" x="356" y="382" w="137" h="27" measuredW="73" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="330" y="404" w="32" h="27" measuredW="77" measuredH="79" zOrder="14" locked="false" isInGroup="-1"/>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Button" x="356" y="428" w="137" h="27" measuredW="73" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <href>territoires%26bm%3Bterritoires.bmml%26bm%3Bterritoires.bmml%26bm%3Bterritoires.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2253%2C330%2C190%2C357%22%20href%3D%22territoires.bmml%22%20alt%3D%22territoires%22%20id%3D%2217%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2253%2C376%2C190%2C403%22%20href%3D%22territoires.bmml%22%20alt%3D%22territoires%22%20id%3D%2217%22/%3E</map>
         <size>11</size>
         <state>up</state>
         <text>Territoires</text>
       </controlProperties>
     </control>
-    <control controlID="18" controlTypeID="com.balsamiq.mockups::Image" x="329" y="382" w="32" h="27" measuredW="77" measuredH="79" zOrder="16" locked="false" isInGroup="-1"/>
-    <control controlID="19" controlTypeID="com.balsamiq.mockups::Button" x="356" y="406" w="137" h="27" measuredW="81" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Image" x="329" y="428" w="32" h="27" measuredW="77" measuredH="79" zOrder="16" locked="false" isInGroup="-1"/>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Button" x="356" y="452" w="137" h="27" measuredW="81" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
         <href>equipe%26bm%3Bequipe.bmml%26bm%3Bequipe.bmml%26bm%3Bequipe.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2253%2C354%2C190%2C381%22%20href%3D%22equipe.bmml%22%20alt%3D%22equipe%22%20id%3D%2219%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2253%2C400%2C190%2C427%22%20href%3D%22equipe.bmml%22%20alt%3D%22equipe%22%20id%3D%2219%22/%3E</map>
         <size>11</size>
         <text>Mon%20%E9quipe</text>
       </controlProperties>
     </control>
-    <control controlID="20" controlTypeID="com.balsamiq.mockups::Image" x="329" y="406" w="32" h="27" measuredW="77" measuredH="79" zOrder="18" locked="false" isInGroup="-1"/>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Image" x="329" y="452" w="32" h="27" measuredW="77" measuredH="79" zOrder="18" locked="false" isInGroup="-1"/>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::Button" x="356" y="335" w="137" h="27" measuredW="61" measuredH="27" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>profil%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2253%2C283%2C190%2C310%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%2221%22/%3E</map>
+        <size>11</size>
+        <text>Activit%E9</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Image" x="329" y="335" w="32" h="27" measuredW="77" measuredH="79" zOrder="20" locked="false" isInGroup="-1"/>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Button" x="357" y="287" w="137" h="27" measuredW="58" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>profil%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2254%2C235%2C191%2C262%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%2223%22/%3E</map>
+        <size>11</size>
+        <text>Accueil</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Image" x="330" y="287" w="32" h="27" measuredW="77" measuredH="79" zOrder="22" locked="false" isInGroup="-1"/>
   </controls>
 </mockup>
