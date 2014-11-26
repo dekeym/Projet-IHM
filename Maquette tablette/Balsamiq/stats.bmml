@@ -1,0 +1,699 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1289" measuredH="530" mockupW="826" mockupH="470">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="463" y="60" w="826" h="470" measuredW="705" measuredH="401" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <rotation>90</rotation>
+        <src>./n7.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="560" y="94" w="635" h="47" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>10066329</color>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="596" y="104" w="-1" h="-1" measuredW="99" measuredH="26" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <href>menu%26bm%3Bmenu.bmml%26bm%3Bmenu.bmml%26bm%3Bmenu.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22133%2C44%2C232%2C70%22%20href%3D%22menu.bmml%22%20alt%3D%22menu%22%20id%3D%222%22/%3E</map>
+        <size>18</size>
+        <text>Statistiques</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="572" y="109" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>menu%26bm%3Bmenu.bmml%26bm%3Bmenu.bmml%26bm%3Bmenu.bmml</href>
+        <icon>ListIcon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22109%2C49%2C125%2C65%22%20href%3D%22menu.bmml%22%20alt%3D%22menu%22%20id%3D%223%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Image" x="560" y="175" w="159" h="25" measuredW="233" measuredH="43" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="87" controlTypeID="com.balsamiq.mockups::Label" x="572" y="177" w="-1" h="-1" measuredW="134" measuredH="20" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Activit%E9%20%09%20%20%20%20%20%20%2001</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::Canvas" x="560" y="139" w="317" h="37" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>3355443</color>
+      </controlProperties>
+    </control>
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::Label" x="574" y="147" w="-1" h="-1" measuredW="86" measuredH="20" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>12</size>
+        <text>Cette%20semaine</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="127" controlTypeID="com.balsamiq.mockups::Image" x="718" y="175" w="159" h="25" measuredW="233" measuredH="43" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::Label" x="730" y="177" w="-1" h="-1" measuredW="138" measuredH="20" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Distance%20%09%20%20%20%20%207km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="129" controlTypeID="com.balsamiq.mockups::Image" x="560" y="199" w="159" h="25" measuredW="233" measuredH="43" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="130" controlTypeID="com.balsamiq.mockups::Label" x="572" y="201" w="143" h="-1" measuredW="137" measuredH="20" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Dur%E9e%20%09%20%20%20%20%20%20%20%20%20%20%2000%3A38%3A14</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="131" controlTypeID="com.balsamiq.mockups::Image" x="718" y="199" w="159" h="25" measuredW="233" measuredH="43" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="132" controlTypeID="com.balsamiq.mockups::Label" x="730" y="201" w="147" h="-1" measuredW="142" measuredH="20" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Calories%20%20%09%20%2045kcal</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::Image" x="560" y="224" w="159" h="25" measuredW="233" measuredH="43" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="134" controlTypeID="com.balsamiq.mockups::Label" x="572" y="226" w="143" h="-1" measuredW="137" measuredH="20" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Vitesse%20max%20%20%20%20%20%20%2012km/h</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="135" controlTypeID="com.balsamiq.mockups::Image" x="718" y="224" w="159" h="25" measuredW="233" measuredH="43" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="136" controlTypeID="com.balsamiq.mockups::Label" x="730" y="226" w="147" h="-1" measuredW="137" measuredH="20" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Vitesse%20moy%20%20%20%20%20%20%2010km/h</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="137" controlTypeID="com.balsamiq.mockups::Image" x="877" y="175" w="159" h="25" measuredW="233" measuredH="43" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="138" controlTypeID="com.balsamiq.mockups::Label" x="889" y="177" w="-1" h="-1" measuredW="137" measuredH="20" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Activit%E9%20%09%20%20%20%20%20%20%2002</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="139" controlTypeID="com.balsamiq.mockups::Canvas" x="877" y="139" w="317" h="37" measuredW="100" measuredH="70" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="140" controlTypeID="com.balsamiq.mockups::Label" x="891" y="147" w="-1" h="-1" measuredW="118" measuredH="20" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>12</size>
+        <text>La%20semaine%20derni%E8re</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="141" controlTypeID="com.balsamiq.mockups::Image" x="1035" y="175" w="159" h="25" measuredW="233" measuredH="43" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="142" controlTypeID="com.balsamiq.mockups::Label" x="1047" y="177" w="-1" h="-1" measuredW="141" measuredH="20" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Distance%20%09%20%20%20%20%2011km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="143" controlTypeID="com.balsamiq.mockups::Image" x="877" y="199" w="159" h="25" measuredW="233" measuredH="43" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="144" controlTypeID="com.balsamiq.mockups::Label" x="889" y="201" w="143" h="-1" measuredW="137" measuredH="20" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Dur%E9e%20%09%20%20%20%20%20%20%20%20%20%20%2000%3A48%3A14</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="145" controlTypeID="com.balsamiq.mockups::Image" x="1035" y="199" w="159" h="25" measuredW="233" measuredH="43" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="146" controlTypeID="com.balsamiq.mockups::Label" x="1047" y="201" w="147" h="-1" measuredW="142" measuredH="20" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Calories%20%20%09%20%2045kcal</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="147" controlTypeID="com.balsamiq.mockups::Image" x="877" y="224" w="159" h="25" measuredW="233" measuredH="43" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="148" controlTypeID="com.balsamiq.mockups::Label" x="889" y="226" w="143" h="-1" measuredW="137" measuredH="20" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Vitesse%20max%20%20%20%20%20%20%2012km/h</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="149" controlTypeID="com.balsamiq.mockups::Image" x="1035" y="224" w="159" h="25" measuredW="233" measuredH="43" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="150" controlTypeID="com.balsamiq.mockups::Label" x="1047" y="226" w="147" h="-1" measuredW="137" measuredH="20" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Vitesse%20moy%20%20%20%20%20%20%2010km/h</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="151" controlTypeID="com.balsamiq.mockups::Image" x="560" y="294" w="159" h="25" measuredW="233" measuredH="43" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="152" controlTypeID="com.balsamiq.mockups::Label" x="572" y="296" w="-1" h="-1" measuredW="134" measuredH="20" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Activit%E9%20%09%20%20%20%20%20%20%2001</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="153" controlTypeID="com.balsamiq.mockups::Canvas" x="560" y="258" w="317" h="37" measuredW="100" measuredH="70" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>3355443</color>
+      </controlProperties>
+    </control>
+    <control controlID="154" controlTypeID="com.balsamiq.mockups::Label" x="574" y="266" w="-1" h="-1" measuredW="47" measuredH="20" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>12</size>
+        <text>Ce%20mois</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="155" controlTypeID="com.balsamiq.mockups::Image" x="718" y="294" w="159" h="25" measuredW="233" measuredH="43" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="156" controlTypeID="com.balsamiq.mockups::Label" x="730" y="296" w="-1" h="-1" measuredW="138" measuredH="20" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Distance%20%09%20%20%20%20%207km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::Image" x="560" y="318" w="159" h="25" measuredW="233" measuredH="43" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::Label" x="572" y="320" w="143" h="-1" measuredW="137" measuredH="20" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Dur%E9e%20%09%20%20%20%20%20%20%20%20%20%20%2000%3A38%3A14</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::Image" x="718" y="318" w="159" h="25" measuredW="233" measuredH="43" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::Label" x="730" y="320" w="147" h="-1" measuredW="142" measuredH="20" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Calories%20%20%09%20%2045kcal</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::Image" x="560" y="343" w="159" h="25" measuredW="233" measuredH="43" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::Label" x="572" y="345" w="143" h="-1" measuredW="137" measuredH="20" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Vitesse%20max%20%20%20%20%20%20%2012km/h</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="163" controlTypeID="com.balsamiq.mockups::Image" x="718" y="343" w="159" h="25" measuredW="233" measuredH="43" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::Label" x="730" y="345" w="147" h="-1" measuredW="137" measuredH="20" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Vitesse%20moy%20%20%20%20%20%20%2010km/h</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="165" controlTypeID="com.balsamiq.mockups::Image" x="877" y="294" w="159" h="25" measuredW="233" measuredH="43" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="166" controlTypeID="com.balsamiq.mockups::Label" x="889" y="296" w="-1" h="-1" measuredW="137" measuredH="20" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Activit%E9%20%09%20%20%20%20%20%20%2002</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="167" controlTypeID="com.balsamiq.mockups::Canvas" x="877" y="258" w="317" h="37" measuredW="100" measuredH="70" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="168" controlTypeID="com.balsamiq.mockups::Label" x="891" y="266" w="-1" h="-1" measuredW="90" measuredH="20" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>12</size>
+        <text>Le%20mois%20dernier</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="169" controlTypeID="com.balsamiq.mockups::Image" x="1035" y="294" w="159" h="25" measuredW="233" measuredH="43" zOrder="50" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="170" controlTypeID="com.balsamiq.mockups::Label" x="1047" y="296" w="-1" h="-1" measuredW="141" measuredH="20" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Distance%20%09%20%20%20%20%2011km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="171" controlTypeID="com.balsamiq.mockups::Image" x="877" y="318" w="159" h="25" measuredW="233" measuredH="43" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="172" controlTypeID="com.balsamiq.mockups::Label" x="889" y="320" w="143" h="-1" measuredW="137" measuredH="20" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Dur%E9e%20%09%20%20%20%20%20%20%20%20%20%20%2000%3A48%3A14</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="173" controlTypeID="com.balsamiq.mockups::Image" x="1035" y="318" w="159" h="25" measuredW="233" measuredH="43" zOrder="54" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="174" controlTypeID="com.balsamiq.mockups::Label" x="1047" y="320" w="147" h="-1" measuredW="142" measuredH="20" zOrder="55" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Calories%20%20%09%20%2045kcal</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="175" controlTypeID="com.balsamiq.mockups::Image" x="877" y="343" w="159" h="25" measuredW="233" measuredH="43" zOrder="56" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="176" controlTypeID="com.balsamiq.mockups::Label" x="889" y="345" w="143" h="-1" measuredW="137" measuredH="20" zOrder="57" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Vitesse%20max%20%20%20%20%20%20%2012km/h</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="177" controlTypeID="com.balsamiq.mockups::Image" x="1035" y="343" w="159" h="25" measuredW="233" measuredH="43" zOrder="58" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="178" controlTypeID="com.balsamiq.mockups::Label" x="1047" y="345" w="147" h="-1" measuredW="137" measuredH="20" zOrder="59" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Vitesse%20moy%20%20%20%20%20%20%2010km/h</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="179" controlTypeID="com.balsamiq.mockups::Image" x="560" y="412" w="159" h="25" measuredW="233" measuredH="43" zOrder="60" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="180" controlTypeID="com.balsamiq.mockups::Label" x="572" y="414" w="-1" h="-1" measuredW="134" measuredH="20" zOrder="61" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Activit%E9%20%09%20%20%20%20%20%20%2001</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="181" controlTypeID="com.balsamiq.mockups::Canvas" x="560" y="376" w="317" h="37" measuredW="100" measuredH="70" zOrder="62" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>3355443</color>
+      </controlProperties>
+    </control>
+    <control controlID="182" controlTypeID="com.balsamiq.mockups::Label" x="574" y="384" w="-1" h="-1" measuredW="73" measuredH="20" zOrder="63" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>12</size>
+        <text>Cette%20ann%E9e</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="183" controlTypeID="com.balsamiq.mockups::Image" x="718" y="412" w="159" h="25" measuredW="233" measuredH="43" zOrder="64" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="184" controlTypeID="com.balsamiq.mockups::Label" x="730" y="414" w="-1" h="-1" measuredW="138" measuredH="20" zOrder="65" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Distance%20%09%20%20%20%20%207km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="185" controlTypeID="com.balsamiq.mockups::Image" x="560" y="436" w="159" h="25" measuredW="233" measuredH="43" zOrder="66" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="186" controlTypeID="com.balsamiq.mockups::Label" x="572" y="438" w="143" h="-1" measuredW="137" measuredH="20" zOrder="67" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Dur%E9e%20%09%20%20%20%20%20%20%20%20%20%20%2000%3A38%3A14</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="187" controlTypeID="com.balsamiq.mockups::Image" x="718" y="436" w="159" h="25" measuredW="233" measuredH="43" zOrder="68" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="188" controlTypeID="com.balsamiq.mockups::Label" x="730" y="438" w="147" h="-1" measuredW="142" measuredH="20" zOrder="69" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Calories%20%20%09%20%2045kcal</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="189" controlTypeID="com.balsamiq.mockups::Image" x="560" y="461" w="159" h="25" measuredW="233" measuredH="43" zOrder="70" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="190" controlTypeID="com.balsamiq.mockups::Label" x="572" y="463" w="143" h="-1" measuredW="137" measuredH="20" zOrder="71" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Vitesse%20max%20%20%20%20%20%20%2012km/h</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="191" controlTypeID="com.balsamiq.mockups::Image" x="718" y="461" w="159" h="25" measuredW="233" measuredH="43" zOrder="72" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="192" controlTypeID="com.balsamiq.mockups::Label" x="730" y="463" w="147" h="-1" measuredW="137" measuredH="20" zOrder="73" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Vitesse%20moy%20%20%20%20%20%20%2010km/h</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="193" controlTypeID="com.balsamiq.mockups::Image" x="877" y="412" w="159" h="25" measuredW="233" measuredH="43" zOrder="74" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="194" controlTypeID="com.balsamiq.mockups::Label" x="889" y="414" w="-1" h="-1" measuredW="137" measuredH="20" zOrder="75" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Activit%E9%20%09%20%20%20%20%20%20%2002</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="195" controlTypeID="com.balsamiq.mockups::Canvas" x="877" y="376" w="317" h="37" measuredW="100" measuredH="70" zOrder="76" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::Label" x="891" y="384" w="-1" h="-1" measuredW="67" measuredH="20" zOrder="77" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>12</size>
+        <text>L%27an%20dernier</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="197" controlTypeID="com.balsamiq.mockups::Image" x="1035" y="412" w="159" h="25" measuredW="233" measuredH="43" zOrder="78" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="198" controlTypeID="com.balsamiq.mockups::Label" x="1047" y="414" w="-1" h="-1" measuredW="141" measuredH="20" zOrder="79" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Distance%20%09%20%20%20%20%2011km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="199" controlTypeID="com.balsamiq.mockups::Image" x="877" y="436" w="159" h="25" measuredW="233" measuredH="43" zOrder="80" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="200" controlTypeID="com.balsamiq.mockups::Label" x="889" y="438" w="143" h="-1" measuredW="137" measuredH="20" zOrder="81" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Dur%E9e%20%09%20%20%20%20%20%20%20%20%20%20%2000%3A48%3A14</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="201" controlTypeID="com.balsamiq.mockups::Image" x="1035" y="436" w="159" h="25" measuredW="233" measuredH="43" zOrder="82" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="202" controlTypeID="com.balsamiq.mockups::Label" x="1047" y="438" w="147" h="-1" measuredW="142" measuredH="20" zOrder="83" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Calories%20%20%09%20%2045kcal</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="203" controlTypeID="com.balsamiq.mockups::Image" x="877" y="461" w="159" h="25" measuredW="233" measuredH="43" zOrder="84" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="204" controlTypeID="com.balsamiq.mockups::Label" x="889" y="463" w="143" h="-1" measuredW="137" measuredH="20" zOrder="85" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Vitesse%20max%20%20%20%20%20%20%2012km/h</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="205" controlTypeID="com.balsamiq.mockups::Image" x="1035" y="461" w="159" h="25" measuredW="233" measuredH="43" zOrder="86" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="206" controlTypeID="com.balsamiq.mockups::Label" x="1047" y="463" w="147" h="-1" measuredW="137" measuredH="20" zOrder="87" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <size>12</size>
+        <text>Vitesse%20moy%20%20%20%20%20%20%2010km/h</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

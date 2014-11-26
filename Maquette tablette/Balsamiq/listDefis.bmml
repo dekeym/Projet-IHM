@@ -1,0 +1,342 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1289" measuredH="530" mockupW="826" mockupH="470">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="463" y="60" w="826" h="470" measuredW="705" measuredH="401" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <rotation>90</rotation>
+        <src>./n7.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="560" y="94" w="635" h="47" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>10066329</color>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="596" y="104" w="-1" h="-1" measuredW="64" measuredH="26" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <href>menu%26bm%3Bmenu.bmml%26bm%3Bmenu.bmml%26bm%3Bmenu.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22133%2C44%2C197%2C70%22%20href%3D%22menu.bmml%22%20alt%3D%22menu%22%20id%3D%222%22/%3E</map>
+        <size>18</size>
+        <text>Activit%E9</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="572" y="109" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>menu%26bm%3Bmenu.bmml%26bm%3Bmenu.bmml%26bm%3Bmenu.bmml</href>
+        <icon>ListIcon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22109%2C49%2C125%2C65%22%20href%3D%22menu.bmml%22%20alt%3D%22menu%22%20id%3D%223%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Map" x="560" y="141" w="364" h="354" measuredW="252" measuredH="222" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::VRule" x="920" y="141" w="-1" h="354" measuredW="10" measuredH="100" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Arrow" x="765" y="226" w="35" h="146" measuredW="150" measuredH="100" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Arrow" x="603" y="228" w="172" h="10" measuredW="150" measuredH="100" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Arrow" x="611" y="241" w="189" h="131" measuredW="150" measuredH="100" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Canvas" x="924" y="138" w="272" h="47" measuredW="100" measuredH="70" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Label" x="975" y="151" w="-1" h="-1" measuredW="170" measuredH="20" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>12</size>
+        <text>Liste%20des%20d%E9fis%20autour%20de%20moi</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Image" x="924" y="182" w="272" h="43" measuredW="233" measuredH="43" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22461%2C122%2C733%2C165%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2235%22/%3E</map>
+        <src>./fod2.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Image" x="934" y="191" w="25" h="26" measuredW="128" measuredH="128" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22471%2C131%2C496%2C157%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2236%22/%3E</map>
+        <src>./flag.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="970" y="186" w="-1" h="-1" measuredW="179" measuredH="20" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C126%2C686%2C146%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2237%22/%3E</map>
+        <size>12</size>
+        <text>D%E9fi%20propos%E9%20par%20Eddy%20Quinaou</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="970" y="200" w="-1" h="-1" measuredW="210" measuredH="20" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C140%2C717%2C160%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2238%22/%3E</map>
+        <size>12</size>
+        <text>Temps%20%3A%2000%3A24%3A31%09%20%20%20%20%20%20%20%20%20%20Distance%20%3A7km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Image" x="924" y="223" w="272" h="43" measuredW="233" measuredH="43" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22461%2C163%2C733%2C206%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2239%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Image" x="934" y="232" w="25" h="26" measuredW="128" measuredH="128" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22471%2C172%2C496%2C198%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2240%22/%3E</map>
+        <src>./flag.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Label" x="970" y="227" w="-1" h="-1" measuredW="179" measuredH="20" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C167%2C686%2C187%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2241%22/%3E</map>
+        <size>12</size>
+        <text>D%E9fi%20propos%E9%20par%20Eddy%20Quinaou</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Label" x="970" y="241" w="-1" h="-1" measuredW="210" measuredH="20" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C181%2C717%2C201%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2242%22/%3E</map>
+        <size>12</size>
+        <text>Temps%20%3A%2000%3A24%3A31%09%20%20%20%20%20%20%20%20%20%20Distance%20%3A7km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Image" x="924" y="265" w="272" h="43" measuredW="233" measuredH="43" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22461%2C205%2C733%2C248%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2243%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Image" x="935" y="273" w="25" h="26" measuredW="128" measuredH="128" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22472%2C213%2C497%2C239%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2244%22/%3E</map>
+        <src>./check.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Label" x="970" y="269" w="-1" h="-1" measuredW="179" measuredH="20" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C209%2C686%2C229%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2245%22/%3E</map>
+        <size>12</size>
+        <text>D%E9fi%20propos%E9%20par%20Eddy%20Quinaou</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Label" x="970" y="283" w="-1" h="-1" measuredW="210" measuredH="20" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C223%2C717%2C243%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2246%22/%3E</map>
+        <size>12</size>
+        <text>Temps%20%3A%2000%3A24%3A31%09%20%20%20%20%20%20%20%20%20%20Distance%20%3A7km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Image" x="924" y="307" w="272" h="43" measuredW="233" measuredH="43" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22461%2C247%2C733%2C290%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2247%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Image" x="934" y="316" w="25" h="26" measuredW="128" measuredH="128" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22471%2C256%2C496%2C282%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2248%22/%3E</map>
+        <src>./flag.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Label" x="970" y="311" w="-1" h="-1" measuredW="179" measuredH="20" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C251%2C686%2C271%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2249%22/%3E</map>
+        <size>12</size>
+        <text>D%E9fi%20propos%E9%20par%20Eddy%20Quinaou</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Label" x="970" y="325" w="-1" h="-1" measuredW="210" measuredH="20" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C265%2C717%2C285%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2250%22/%3E</map>
+        <size>12</size>
+        <text>Temps%20%3A%2000%3A24%3A31%09%20%20%20%20%20%20%20%20%20%20Distance%20%3A7km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Image" x="924" y="348" w="272" h="43" measuredW="233" measuredH="43" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22461%2C288%2C733%2C331%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2251%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Image" x="934" y="356" w="25" h="26" measuredW="128" measuredH="128" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22471%2C296%2C496%2C322%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2252%22/%3E</map>
+        <src>./check.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Label" x="970" y="352" w="-1" h="-1" measuredW="179" measuredH="20" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C292%2C686%2C312%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2253%22/%3E</map>
+        <size>12</size>
+        <text>D%E9fi%20propos%E9%20par%20Eddy%20Quinaou</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Label" x="970" y="366" w="-1" h="-1" measuredW="210" measuredH="20" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C306%2C717%2C326%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2254%22/%3E</map>
+        <size>12</size>
+        <text>Temps%20%3A%2000%3A24%3A31%09%20%20%20%20%20%20%20%20%20%20Distance%20%3A7km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Image" x="924" y="390" w="272" h="43" measuredW="233" measuredH="43" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22461%2C330%2C733%2C373%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2255%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Image" x="934" y="399" w="25" h="26" measuredW="128" measuredH="128" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22471%2C339%2C496%2C365%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2256%22/%3E</map>
+        <src>./flag.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Label" x="970" y="394" w="-1" h="-1" measuredW="179" measuredH="20" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C334%2C686%2C354%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2257%22/%3E</map>
+        <size>12</size>
+        <text>D%E9fi%20propos%E9%20par%20Eddy%20Quinaou</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Label" x="970" y="408" w="-1" h="-1" measuredW="210" measuredH="20" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C348%2C717%2C368%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2258%22/%3E</map>
+        <size>12</size>
+        <text>Temps%20%3A%2000%3A24%3A31%09%20%20%20%20%20%20%20%20%20%20Distance%20%3A7km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Image" x="924" y="431" w="272" h="43" measuredW="233" measuredH="43" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22461%2C371%2C733%2C414%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2259%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Image" x="934" y="440" w="25" h="26" measuredW="128" measuredH="128" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22471%2C380%2C496%2C406%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2260%22/%3E</map>
+        <src>./flag.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Label" x="970" y="435" w="-1" h="-1" measuredW="179" measuredH="20" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C375%2C686%2C395%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2261%22/%3E</map>
+        <size>12</size>
+        <text>D%E9fi%20propos%E9%20par%20Eddy%20Quinaou</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Label" x="970" y="449" w="-1" h="-1" measuredW="210" measuredH="20" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>defiClassement%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml%26bm%3BdefiClassement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22507%2C389%2C717%2C409%22%20href%3D%22defiClassement.bmml%22%20alt%3D%22defiClassement%22%20id%3D%2262%22/%3E</map>
+        <size>12</size>
+        <text>Temps%20%3A%2000%3A24%3A31%09%20%20%20%20%20%20%20%20%20%20Distance%20%3A7km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Canvas" x="557" y="449" w="369" h="47" measuredW="100" measuredH="70" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>40463</color>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="684" y="462" w="-1" h="-1" measuredW="106" measuredH="20" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>12</size>
+        <text>Plannifier%20ce%20d%E9fis</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

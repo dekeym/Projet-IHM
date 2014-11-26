@@ -1,0 +1,804 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1289" measuredH="530" mockupW="826" mockupH="470">
+  <controls>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="463" y="60" w="826" h="470" measuredW="705" measuredH="401" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <rotation>90</rotation>
+        <src>./n7.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="560" y="94" w="635" h="47" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>10066329</color>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="596" y="104" w="-1" h="-1" measuredW="83" measuredH="26" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <href>menu%26bm%3Bmenu.bmml%26bm%3Bmenu.bmml%26bm%3Bmenu.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22133%2C44%2C216%2C70%22%20href%3D%22menu.bmml%22%20alt%3D%22menu%22%20id%3D%226%22/%3E</map>
+        <size>18</size>
+        <text>Historique</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Icon" x="572" y="109" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>menu%26bm%3Bmenu.bmml%26bm%3Bmenu.bmml%26bm%3Bmenu.bmml</href>
+        <icon>ListIcon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22109%2C49%2C125%2C65%22%20href%3D%22menu.bmml%22%20alt%3D%22menu%22%20id%3D%2276%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::Image" x="559" y="175" w="317" h="43" measuredW="233" measuredH="43" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2296%2C115%2C413%2C158%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22161%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::Image" x="573" y="184" w="34" h="26" measuredW="130" measuredH="92" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22110%2C124%2C144%2C150%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22162%22/%3E</map>
+        <src>./run.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="163" controlTypeID="com.balsamiq.mockups::Label" x="621" y="180" w="-1" h="-1" measuredW="70" measuredH="20" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22158%2C120%2C228%2C140%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22163%22/%3E</map>
+        <size>12</size>
+        <text>08/12/2014%20</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::Label" x="621" y="194" w="-1" h="-1" measuredW="29" measuredH="20" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22158%2C134%2C187%2C154%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22164%22/%3E</map>
+        <size>12</size>
+        <text>17%3A30</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="165" controlTypeID="com.balsamiq.mockups::Label" x="826" y="180" w="-1" h="-1" measuredW="38" measuredH="20" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22363%2C120%2C401%2C140%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22165%22/%3E</map>
+        <size>12</size>
+        <text>3.3%20km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="166" controlTypeID="com.balsamiq.mockups::Label" x="816" y="194" w="-1" h="-1" measuredW="49" measuredH="20" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22353%2C134%2C402%2C154%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22166%22/%3E</map>
+        <size>12</size>
+        <text>Distance</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="169" controlTypeID="com.balsamiq.mockups::Image" x="559" y="217" w="317" h="43" measuredW="233" measuredH="43" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2296%2C157%2C413%2C200%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22169%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="170" controlTypeID="com.balsamiq.mockups::Image" x="573" y="226" w="34" h="26" measuredW="130" measuredH="92" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22110%2C166%2C144%2C192%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22170%22/%3E</map>
+        <src>./run.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="171" controlTypeID="com.balsamiq.mockups::Label" x="621" y="222" w="-1" h="-1" measuredW="62" measuredH="20" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22158%2C162%2C220%2C182%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22171%22/%3E</map>
+        <size>12</size>
+        <text>5/12/2014%20</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="172" controlTypeID="com.balsamiq.mockups::Label" x="621" y="236" w="-1" h="-1" measuredW="29" measuredH="20" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22158%2C176%2C187%2C196%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22172%22/%3E</map>
+        <size>12</size>
+        <text>17%3A30</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="173" controlTypeID="com.balsamiq.mockups::Label" x="826" y="222" w="-1" h="-1" measuredW="38" measuredH="20" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22363%2C162%2C401%2C182%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22173%22/%3E</map>
+        <size>12</size>
+        <text>5.5%20km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="174" controlTypeID="com.balsamiq.mockups::Label" x="816" y="236" w="-1" h="-1" measuredW="49" measuredH="20" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22353%2C176%2C402%2C196%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22174%22/%3E</map>
+        <size>12</size>
+        <text>Distance</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="175" controlTypeID="com.balsamiq.mockups::Image" x="559" y="259" w="317" h="43" measuredW="233" measuredH="43" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2296%2C199%2C413%2C242%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22175%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="176" controlTypeID="com.balsamiq.mockups::Image" x="573" y="268" w="34" h="26" measuredW="130" measuredH="92" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22110%2C208%2C144%2C234%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22176%22/%3E</map>
+        <src>./run.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="177" controlTypeID="com.balsamiq.mockups::Label" x="621" y="264" w="-1" h="-1" measuredW="60" measuredH="20" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22158%2C204%2C218%2C224%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22177%22/%3E</map>
+        <size>12</size>
+        <text>1/12/2014%20</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="178" controlTypeID="com.balsamiq.mockups::Label" x="621" y="278" w="-1" h="-1" measuredW="29" measuredH="20" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22158%2C218%2C187%2C238%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22178%22/%3E</map>
+        <size>12</size>
+        <text>17%3A30</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="179" controlTypeID="com.balsamiq.mockups::Label" x="826" y="264" w="-1" h="-1" measuredW="39" measuredH="20" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22363%2C204%2C402%2C224%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22179%22/%3E</map>
+        <size>12</size>
+        <text>3.0%20km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="180" controlTypeID="com.balsamiq.mockups::Label" x="816" y="278" w="-1" h="-1" measuredW="49" measuredH="20" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22353%2C218%2C402%2C238%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22180%22/%3E</map>
+        <size>12</size>
+        <text>Distance</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="189" controlTypeID="com.balsamiq.mockups::Image" x="876" y="175" w="318" h="43" measuredW="233" measuredH="43" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activityDefiLost%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22413%2C115%2C731%2C158%22%20href%3D%22activityDefiLost.bmml%22%20alt%3D%22activityDefiLost%22%20id%3D%22189%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="190" controlTypeID="com.balsamiq.mockups::Image" x="890" y="185" w="25" h="26" measuredW="128" measuredH="128" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activityDefiLost%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22427%2C125%2C452%2C151%22%20href%3D%22activityDefiLost.bmml%22%20alt%3D%22activityDefiLost%22%20id%3D%22190%22/%3E</map>
+        <src>./flag.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="191" controlTypeID="com.balsamiq.mockups::Label" x="928" y="180" w="-1" h="-1" measuredW="70" measuredH="20" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activityDefiLost%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22465%2C120%2C535%2C140%22%20href%3D%22activityDefiLost.bmml%22%20alt%3D%22activityDefiLost%22%20id%3D%22191%22/%3E</map>
+        <size>12</size>
+        <text>30/12/2014%20</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="192" controlTypeID="com.balsamiq.mockups::Label" x="928" y="194" w="-1" h="-1" measuredW="57" measuredH="20" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activityDefiLost%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22465%2C134%2C522%2C154%22%20href%3D%22activityDefiLost.bmml%22%20alt%3D%22activityDefiLost%22%20id%3D%22192%22/%3E</map>
+        <size>12</size>
+        <text>+00%3A06%3A32</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="193" controlTypeID="com.balsamiq.mockups::Label" x="1070" y="180" w="-1" h="-1" measuredW="39" measuredH="20" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activityDefiLost%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22607%2C120%2C646%2C140%22%20href%3D%22activityDefiLost.bmml%22%20alt%3D%22activityDefiLost%22%20id%3D%22193%22/%3E</map>
+        <size>12</size>
+        <text>3.0%20km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="194" controlTypeID="com.balsamiq.mockups::Label" x="1060" y="194" w="-1" h="-1" measuredW="49" measuredH="20" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>3355443</color>
+        <href>activityDefiLost%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22597%2C134%2C646%2C154%22%20href%3D%22activityDefiLost.bmml%22%20alt%3D%22activityDefiLost%22%20id%3D%22194%22/%3E</map>
+        <size>12</size>
+        <text>Distance</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="195" controlTypeID="com.balsamiq.mockups::Canvas" x="1117" y="175" w="76" h="43" measuredW="100" measuredH="70" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>13369344</color>
+        <href>activityDefiLost%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22654%2C115%2C730%2C158%22%20href%3D%22activityDefiLost.bmml%22%20alt%3D%22activityDefiLost%22%20id%3D%22195%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::Label" x="1134" y="186" w="-1" h="-1" measuredW="42" measuredH="20" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>16777215</color>
+        <href>activityDefiLost%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml%26bm%3BactivityDefiLost.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22671%2C126%2C713%2C146%22%20href%3D%22activityDefiLost.bmml%22%20alt%3D%22activityDefiLost%22%20id%3D%22196%22/%3E</map>
+        <size>12</size>
+        <text>Echou%E9</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="197" controlTypeID="com.balsamiq.mockups::Canvas" x="877" y="141" w="316" h="37" measuredW="100" measuredH="70" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>3355443</color>
+      </controlProperties>
+    </control>
+    <control controlID="198" controlTypeID="com.balsamiq.mockups::Label" x="898" y="149" w="-1" h="-1" measuredW="116" measuredH="20" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>12</size>
+        <text>Historique%20des%20d%E9fis</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="199" controlTypeID="com.balsamiq.mockups::Canvas" x="559" y="139" w="317" h="37" measuredW="100" measuredH="70" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>3355443</color>
+      </controlProperties>
+    </control>
+    <control controlID="200" controlTypeID="com.balsamiq.mockups::Label" x="577" y="147" w="-1" h="-1" measuredW="172" measuredH="20" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>12</size>
+        <text>Historique%20des%20entra%EEnements</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="203" controlTypeID="com.balsamiq.mockups::Label" x="730" y="180" w="-1" h="-1" measuredW="40" measuredH="20" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22267%2C120%2C307%2C140%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22203%22/%3E</map>
+        <size>12</size>
+        <text>727.35</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="204" controlTypeID="com.balsamiq.mockups::Label" x="728" y="194" w="-1" h="-1" measuredW="45" measuredH="20" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22265%2C134%2C310%2C154%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22204%22/%3E</map>
+        <size>12</size>
+        <text>Calories</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="205" controlTypeID="com.balsamiq.mockups::Label" x="732" y="221" w="-1" h="-1" measuredW="40" measuredH="20" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22269%2C161%2C309%2C181%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22205%22/%3E</map>
+        <size>12</size>
+        <text>727.35</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="206" controlTypeID="com.balsamiq.mockups::Label" x="730" y="235" w="-1" h="-1" measuredW="45" measuredH="20" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22267%2C175%2C312%2C195%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22206%22/%3E</map>
+        <size>12</size>
+        <text>Calories</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="207" controlTypeID="com.balsamiq.mockups::Label" x="732" y="263" w="-1" h="-1" measuredW="40" measuredH="20" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22269%2C203%2C309%2C223%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22207%22/%3E</map>
+        <size>12</size>
+        <text>727.35</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="208" controlTypeID="com.balsamiq.mockups::Label" x="730" y="277" w="-1" h="-1" measuredW="45" measuredH="20" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22267%2C217%2C312%2C237%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22208%22/%3E</map>
+        <size>12</size>
+        <text>Calories</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="209" controlTypeID="com.balsamiq.mockups::Image" x="560" y="301" w="317" h="43" measuredW="233" measuredH="43" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2297%2C241%2C414%2C284%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22209%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="210" controlTypeID="com.balsamiq.mockups::Image" x="574" y="310" w="34" h="26" measuredW="130" measuredH="92" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22111%2C250%2C145%2C276%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22210%22/%3E</map>
+        <src>./run.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="211" controlTypeID="com.balsamiq.mockups::Label" x="622" y="306" w="-1" h="-1" measuredW="67" measuredH="20" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22159%2C246%2C226%2C266%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22211%22/%3E</map>
+        <size>12</size>
+        <text>08/11/2014%20</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="212" controlTypeID="com.balsamiq.mockups::Label" x="622" y="320" w="-1" h="-1" measuredW="29" measuredH="20" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22159%2C260%2C188%2C280%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22212%22/%3E</map>
+        <size>12</size>
+        <text>17%3A30</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="213" controlTypeID="com.balsamiq.mockups::Label" x="827" y="306" w="-1" h="-1" measuredW="38" measuredH="20" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22364%2C246%2C402%2C266%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22213%22/%3E</map>
+        <size>12</size>
+        <text>3.3%20km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="214" controlTypeID="com.balsamiq.mockups::Label" x="817" y="320" w="-1" h="-1" measuredW="49" measuredH="20" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22354%2C260%2C403%2C280%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22214%22/%3E</map>
+        <size>12</size>
+        <text>Distance</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="215" controlTypeID="com.balsamiq.mockups::Image" x="560" y="343" w="317" h="43" measuredW="233" measuredH="43" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2297%2C283%2C414%2C326%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22215%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="216" controlTypeID="com.balsamiq.mockups::Image" x="574" y="352" w="34" h="26" measuredW="130" measuredH="92" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22111%2C292%2C145%2C318%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22216%22/%3E</map>
+        <src>./run.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="217" controlTypeID="com.balsamiq.mockups::Label" x="622" y="348" w="-1" h="-1" measuredW="60" measuredH="20" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22159%2C288%2C219%2C308%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22217%22/%3E</map>
+        <size>12</size>
+        <text>5/11/2014%20</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="218" controlTypeID="com.balsamiq.mockups::Label" x="622" y="362" w="-1" h="-1" measuredW="29" measuredH="20" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22159%2C302%2C188%2C322%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22218%22/%3E</map>
+        <size>12</size>
+        <text>17%3A30</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="219" controlTypeID="com.balsamiq.mockups::Label" x="827" y="348" w="-1" h="-1" measuredW="38" measuredH="20" zOrder="50" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22364%2C288%2C402%2C308%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22219%22/%3E</map>
+        <size>12</size>
+        <text>5.5%20km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="220" controlTypeID="com.balsamiq.mockups::Label" x="817" y="362" w="-1" h="-1" measuredW="49" measuredH="20" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22354%2C302%2C403%2C322%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22220%22/%3E</map>
+        <size>12</size>
+        <text>Distance</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="221" controlTypeID="com.balsamiq.mockups::Image" x="560" y="385" w="317" h="43" measuredW="233" measuredH="43" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2297%2C325%2C414%2C368%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22221%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="222" controlTypeID="com.balsamiq.mockups::Image" x="574" y="394" w="34" h="26" measuredW="130" measuredH="92" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22111%2C334%2C145%2C360%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22222%22/%3E</map>
+        <src>./run.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="223" controlTypeID="com.balsamiq.mockups::Label" x="622" y="390" w="-1" h="-1" measuredW="57" measuredH="20" zOrder="54" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22159%2C330%2C216%2C350%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22223%22/%3E</map>
+        <size>12</size>
+        <text>1/11/2014%20</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="224" controlTypeID="com.balsamiq.mockups::Label" x="622" y="404" w="-1" h="-1" measuredW="29" measuredH="20" zOrder="55" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22159%2C344%2C188%2C364%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22224%22/%3E</map>
+        <size>12</size>
+        <text>17%3A30</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="225" controlTypeID="com.balsamiq.mockups::Label" x="827" y="390" w="-1" h="-1" measuredW="39" measuredH="20" zOrder="56" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22364%2C330%2C403%2C350%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22225%22/%3E</map>
+        <size>12</size>
+        <text>3.0%20km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="226" controlTypeID="com.balsamiq.mockups::Label" x="817" y="404" w="-1" h="-1" measuredW="49" measuredH="20" zOrder="57" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22354%2C344%2C403%2C364%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22226%22/%3E</map>
+        <size>12</size>
+        <text>Distance</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="227" controlTypeID="com.balsamiq.mockups::Label" x="731" y="306" w="-1" h="-1" measuredW="40" measuredH="20" zOrder="58" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22268%2C246%2C308%2C266%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22227%22/%3E</map>
+        <size>12</size>
+        <text>727.35</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="228" controlTypeID="com.balsamiq.mockups::Label" x="729" y="320" w="-1" h="-1" measuredW="45" measuredH="20" zOrder="59" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22266%2C260%2C311%2C280%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22228%22/%3E</map>
+        <size>12</size>
+        <text>Calories</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="229" controlTypeID="com.balsamiq.mockups::Label" x="733" y="347" w="-1" h="-1" measuredW="40" measuredH="20" zOrder="60" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22270%2C287%2C310%2C307%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22229%22/%3E</map>
+        <size>12</size>
+        <text>727.35</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="230" controlTypeID="com.balsamiq.mockups::Label" x="731" y="361" w="-1" h="-1" measuredW="45" measuredH="20" zOrder="61" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22268%2C301%2C313%2C321%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22230%22/%3E</map>
+        <size>12</size>
+        <text>Calories</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="231" controlTypeID="com.balsamiq.mockups::Label" x="733" y="389" w="-1" h="-1" measuredW="40" measuredH="20" zOrder="62" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22270%2C329%2C310%2C349%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22231%22/%3E</map>
+        <size>12</size>
+        <text>727.35</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="232" controlTypeID="com.balsamiq.mockups::Label" x="731" y="403" w="-1" h="-1" measuredW="45" measuredH="20" zOrder="63" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activity%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml%26bm%3Bactivity.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22268%2C343%2C313%2C363%22%20href%3D%22activity.bmml%22%20alt%3D%22activity%22%20id%3D%22232%22/%3E</map>
+        <size>12</size>
+        <text>Calories</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="233" controlTypeID="com.balsamiq.mockups::Image" x="875" y="217" w="318" h="43" measuredW="233" measuredH="43" zOrder="64" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22412%2C157%2C730%2C200%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22233%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="234" controlTypeID="com.balsamiq.mockups::Image" x="889" y="227" w="25" h="26" measuredW="128" measuredH="128" zOrder="65" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22426%2C167%2C451%2C193%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22234%22/%3E</map>
+        <src>./flag.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="235" controlTypeID="com.balsamiq.mockups::Label" x="927" y="222" w="-1" h="-1" measuredW="70" measuredH="20" zOrder="66" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22464%2C162%2C534%2C182%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22235%22/%3E</map>
+        <size>12</size>
+        <text>28/12/2014%20</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="236" controlTypeID="com.balsamiq.mockups::Label" x="927" y="236" w="-1" h="-1" measuredW="52" measuredH="20" zOrder="67" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22464%2C176%2C516%2C196%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22236%22/%3E</map>
+        <size>12</size>
+        <text>-00%3A01%3A43</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="237" controlTypeID="com.balsamiq.mockups::Label" x="1069" y="222" w="-1" h="-1" measuredW="36" measuredH="20" zOrder="68" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22606%2C162%2C642%2C182%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22237%22/%3E</map>
+        <size>12</size>
+        <text>1.0%20km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="238" controlTypeID="com.balsamiq.mockups::Label" x="1059" y="236" w="-1" h="-1" measuredW="49" measuredH="20" zOrder="69" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>3355443</color>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22596%2C176%2C645%2C196%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22238%22/%3E</map>
+        <size>12</size>
+        <text>Distance</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="239" controlTypeID="com.balsamiq.mockups::Canvas" x="1116" y="217" w="76" h="43" measuredW="100" measuredH="70" zOrder="70" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>40463</color>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22653%2C157%2C729%2C200%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22239%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="240" controlTypeID="com.balsamiq.mockups::Label" x="1133" y="228" w="-1" h="-1" measuredW="39" measuredH="20" zOrder="71" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>16777215</color>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22670%2C168%2C709%2C188%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22240%22/%3E</map>
+        <size>12</size>
+        <text>R%E9ussi</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="241" controlTypeID="com.balsamiq.mockups::Image" x="876" y="259" w="318" h="43" measuredW="233" measuredH="43" zOrder="72" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22413%2C199%2C731%2C242%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22241%22/%3E</map>
+        <src>./fod.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="242" controlTypeID="com.balsamiq.mockups::Image" x="890" y="269" w="25" h="26" measuredW="128" measuredH="128" zOrder="73" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22427%2C209%2C452%2C235%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22242%22/%3E</map>
+        <src>./flag.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="243" controlTypeID="com.balsamiq.mockups::Label" x="928" y="264" w="-1" h="-1" measuredW="70" measuredH="20" zOrder="74" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22465%2C204%2C535%2C224%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22243%22/%3E</map>
+        <size>12</size>
+        <text>20/12/2014%20</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="244" controlTypeID="com.balsamiq.mockups::Label" x="928" y="278" w="-1" h="-1" measuredW="51" measuredH="20" zOrder="75" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22465%2C218%2C516%2C238%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22244%22/%3E</map>
+        <size>12</size>
+        <text>-00%3A08%3A16</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="245" controlTypeID="com.balsamiq.mockups::Label" x="1070" y="264" w="-1" h="-1" measuredW="39" measuredH="20" zOrder="76" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>3355443</color>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22607%2C204%2C646%2C224%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22245%22/%3E</map>
+        <size>12</size>
+        <text>2.0%20km</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="246" controlTypeID="com.balsamiq.mockups::Label" x="1060" y="278" w="-1" h="-1" measuredW="49" measuredH="20" zOrder="77" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>3355443</color>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22597%2C218%2C646%2C238%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22246%22/%3E</map>
+        <size>12</size>
+        <text>Distance</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="247" controlTypeID="com.balsamiq.mockups::Canvas" x="1117" y="259" w="76" h="43" measuredW="100" measuredH="70" zOrder="78" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>40463</color>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22654%2C199%2C730%2C242%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22247%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="248" controlTypeID="com.balsamiq.mockups::Label" x="1134" y="270" w="-1" h="-1" measuredW="39" measuredH="20" zOrder="79" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>16777215</color>
+        <href>activityDefi%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml%26bm%3BactivityDefi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22671%2C210%2C710%2C230%22%20href%3D%22activityDefi.bmml%22%20alt%3D%22activityDefi%22%20id%3D%22248%22/%3E</map>
+        <size>12</size>
+        <text>R%E9ussi</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="249" controlTypeID="com.balsamiq.mockups::Canvas" x="560" y="466" w="635" h="30" measuredW="100" measuredH="70" zOrder="80" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>545684</color>
+      </controlProperties>
+    </control>
+    <control controlID="250" controlTypeID="com.balsamiq.mockups::Label" x="840" y="472" w="-1" h="-1" measuredW="73" measuredH="18" zOrder="81" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22350%2C412%2C423%2C430%22%20href%3D%22historic.bmml%22%20alt%3D%22historic%22%20id%3D%22250%22/%3E</map>
+        <size>10</size>
+        <text>Mois%20pr%E9c%E9dent</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
