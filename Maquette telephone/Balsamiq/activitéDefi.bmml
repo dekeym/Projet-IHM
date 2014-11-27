@@ -96,37 +96,24 @@
         <text>Dur%E9e</text>
       </controlProperties>
     </control>
-    <control controlID="15" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="510" w="123" h="33" measuredW="100" measuredH="70" zOrder="15" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>15110456</color>
-      </controlProperties>
-    </control>
-    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="367" y="515" w="-1" h="-1" measuredW="44" measuredH="22" zOrder="16" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>false</bold>
-        <color>16777215</color>
-        <size>14</size>
-        <text>PAUSE</text>
-      </controlProperties>
-    </control>
-    <control controlID="17" controlTypeID="com.balsamiq.mockups::Canvas" x="445" y="510" w="112" h="33" measuredW="100" measuredH="70" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="510" w="228" h="33" measuredW="100" measuredH="70" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <color>13576743</color>
         <href>afterActivit%E9%26bm%3BafterActivit%E9.bmml%26bm%3BafterActivit%E9.bmml%26bm%3BafterActivit%E9.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22142%2C458%2C254%2C491%22%20href%3D%22afterActivit%25C3%25A9.bmml%22%20alt%3D%22afterActivit%E9%22%20id%3D%2217%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2226%2C458%2C254%2C491%22%20href%3D%22afterActivit%25C3%25A9.bmml%22%20alt%3D%22afterActivit%E9%22%20id%3D%2217%22/%3E</map>
       </controlProperties>
     </control>
-    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="483" y="515" w="-1" h="-1" measuredW="37" measuredH="22" zOrder="18" locked="false" isInGroup="-1">
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="426" y="515" w="-1" h="-1" measuredW="37" measuredH="22" zOrder="16" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
         <color>16777215</color>
         <href>afterActivit%E9%26bm%3BafterActivit%E9.bmml%26bm%3BafterActivit%E9.bmml%26bm%3BafterActivit%E9.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22180%2C463%2C217%2C485%22%20href%3D%22afterActivit%25C3%25A9.bmml%22%20alt%3D%22afterActivit%E9%22%20id%3D%2218%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22123%2C463%2C160%2C485%22%20href%3D%22afterActivit%25C3%25A9.bmml%22%20alt%3D%22afterActivit%E9%22%20id%3D%2218%22/%3E</map>
         <size>14</size>
         <text>STOP</text>
       </controlProperties>
     </control>
-    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="478" y="423" w="-1" h="-1" measuredW="41" measuredH="32" zOrder="19" locked="false" isInGroup="-1">
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="478" y="423" w="-1" h="-1" measuredW="41" measuredH="32" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>16777215</color>
@@ -134,7 +121,7 @@
         <text>1%2C13</text>
       </controlProperties>
     </control>
-    <control controlID="20" controlTypeID="com.balsamiq.mockups::Label" x="479" y="448" w="-1" h="-1" measuredW="52" measuredH="16" zOrder="20" locked="false" isInGroup="-1">
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Label" x="479" y="448" w="-1" h="-1" measuredW="52" measuredH="16" zOrder="18" locked="false" isInGroup="-1">
       <controlProperties>
         <color>15658734</color>
         <size>8</size>
