@@ -43,11 +43,11 @@
         <color>15658734</color>
       </controlProperties>
     </control>
-    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="343" y="404" w="-1" h="-1" measuredW="202" measuredH="20" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="343" y="404" w="-1" h="-1" measuredW="203" measuredH="20" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
         <size>12</size>
-        <text>Territoire%20-%2000%3A24%3A01%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20user%201</text>
+        <text>Territoire%20-%2000%3A24%3A01%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E9quipe</text>
       </controlProperties>
     </control>
     <control controlID="37" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="429" w="228" h="38" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="-1">
@@ -56,11 +56,11 @@
         <color>15658734</color>
       </controlProperties>
     </control>
-    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="343" y="438" w="-1" h="-1" measuredW="202" measuredH="20" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="343" y="438" w="-1" h="-1" measuredW="203" measuredH="20" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
         <size>12</size>
-        <text>Territoire%20-%2000%3A24%3A01%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20user%201</text>
+        <text>Territoire%20-%2000%3A24%3A01%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E9quipe</text>
       </controlProperties>
     </control>
     <control controlID="39" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="464" w="228" h="38" measuredW="100" measuredH="70" zOrder="10" locked="false" isInGroup="-1">
@@ -69,11 +69,11 @@
         <color>15658734</color>
       </controlProperties>
     </control>
-    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="343" y="473" w="-1" h="-1" measuredW="202" measuredH="20" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="343" y="473" w="-1" h="-1" measuredW="203" measuredH="20" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
         <size>12</size>
-        <text>Territoire%20-%2000%3A24%3A01%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20user%201</text>
+        <text>Territoire%20-%2000%3A24%3A01%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E9quipe</text>
       </controlProperties>
     </control>
     <control controlID="41" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="499" w="228" h="38" measuredW="100" measuredH="70" zOrder="12" locked="false" isInGroup="-1">
@@ -82,11 +82,11 @@
         <color>15658734</color>
       </controlProperties>
     </control>
-    <control controlID="42" controlTypeID="com.balsamiq.mockups::Label" x="343" y="508" w="-1" h="-1" measuredW="202" measuredH="20" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Label" x="343" y="508" w="-1" h="-1" measuredW="203" measuredH="20" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
         <size>12</size>
-        <text>Territoire%20-%2000%3A24%3A01%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20user%201</text>
+        <text>Territoire%20-%2000%3A24%3A01%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E9quipe</text>
       </controlProperties>
     </control>
   </controls>
