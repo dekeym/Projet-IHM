@@ -40,53 +40,61 @@
     <control controlID="33" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="395" w="228" h="38" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
-        <color>15658734</color>
+        <color>11982760</color>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2226%2C343%2C254%2C381%22%20href%3D%22listeD%25C3%25A9fisTerritoires.bmml%22%20alt%3D%22listeD%E9fisTerritoires%22%20id%3D%2233%22/%3E</map>
       </controlProperties>
     </control>
     <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="343" y="404" w="-1" h="-1" measuredW="203" measuredH="20" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2240%2C352%2C243%2C372%22%20href%3D%22listeD%25C3%25A9fisTerritoires.bmml%22%20alt%3D%22listeD%E9fisTerritoires%22%20id%3D%2236%22/%3E</map>
         <size>12</size>
-        <text>Territoire%20-%2000%3A24%3A01%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E9quipe</text>
+        <text>Territoire%20-%201%20d%E9fi%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E9quipe</text>
       </controlProperties>
     </control>
-    <control controlID="37" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="429" w="228" h="38" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="456" w="228" h="38" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>14540253</color>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2226%2C417%2C254%2C455%22%20href%3D%22listeD%25C3%25A9fisTerritoires.bmml%22%20alt%3D%22listeD%E9fisTerritoires%22%20id%3D%2237%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="343" y="465" w="-1" h="-1" measuredW="202" measuredH="20" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2240%2C426%2C242%2C446%22%20href%3D%22listeD%25C3%25A9fisTerritoires.bmml%22%20alt%3D%22listeD%E9fisTerritoires%22%20id%3D%2238%22/%3E</map>
+        <size>12</size>
+        <text>Territoire%20-%206%20d%E9fis%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E9quipe</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="491" w="228" h="38" measuredW="100" measuredH="70" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>14540253</color>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2226%2C452%2C254%2C490%22%20href%3D%22listeD%25C3%25A9fisTerritoires.bmml%22%20alt%3D%22listeD%E9fisTerritoires%22%20id%3D%2239%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="343" y="500" w="-1" h="-1" measuredW="202" measuredH="20" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2240%2C461%2C242%2C481%22%20href%3D%22listeD%25C3%25A9fisTerritoires.bmml%22%20alt%3D%22listeD%E9fisTerritoires%22%20id%3D%2240%22/%3E</map>
+        <size>12</size>
+        <text>Territoire%20-%203%20d%E9fis%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E9quipe</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="430" w="228" h="29" measuredW="100" measuredH="70" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
         <color>15658734</color>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2226%2C378%2C254%2C407%22%20href%3D%22listeD%25C3%25A9fisTerritoires.bmml%22%20alt%3D%22listeD%E9fisTerritoires%22%20id%3D%2243%22/%3E</map>
       </controlProperties>
     </control>
-    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="343" y="438" w="-1" h="-1" measuredW="203" measuredH="20" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Label" x="343" y="434" w="-1" h="-1" measuredW="205" measuredH="20" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2240%2C382%2C245%2C402%22%20href%3D%22listeD%25C3%25A9fisTerritoires.bmml%22%20alt%3D%22listeD%E9fisTerritoires%22%20id%3D%2244%22/%3E</map>
         <size>12</size>
-        <text>Territoire%20-%2000%3A24%3A01%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E9quipe</text>
-      </controlProperties>
-    </control>
-    <control controlID="39" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="464" w="228" h="38" measuredW="100" measuredH="70" zOrder="10" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderStyle>square</borderStyle>
-        <color>15658734</color>
-      </controlProperties>
-    </control>
-    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="343" y="473" w="-1" h="-1" measuredW="203" measuredH="20" zOrder="11" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>false</bold>
-        <size>12</size>
-        <text>Territoire%20-%2000%3A24%3A01%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E9quipe</text>
-      </controlProperties>
-    </control>
-    <control controlID="41" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="499" w="228" h="38" measuredW="100" measuredH="70" zOrder="12" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderStyle>square</borderStyle>
-        <color>15658734</color>
-      </controlProperties>
-    </control>
-    <control controlID="42" controlTypeID="com.balsamiq.mockups::Label" x="343" y="508" w="-1" h="-1" measuredW="203" measuredH="20" zOrder="13" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>false</bold>
-        <size>12</size>
-        <text>Territoire%20-%2000%3A24%3A01%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E9quipe</text>
+        <text>D%E9fi%20%231%20-%20Temps%20%3A%2000%3A32%3A15%20%20%20%20%20%20%20%20%20Eddy%20</text>
       </controlProperties>
     </control>
   </controls>

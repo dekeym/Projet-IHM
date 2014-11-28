@@ -29,12 +29,16 @@
     <control controlID="33" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="397" w="228" h="90" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <color>40463</color>
+        <href>activit%E9Defi%26bm%3Bactivit%E9Defi.bmml%26bm%3Bactivit%E9Defi.bmml%26bm%3Bactivit%E9Defi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2226%2C345%2C254%2C435%22%20href%3D%22activit%25C3%25A9Defi.bmml%22%20alt%3D%22activit%E9Defi%22%20id%3D%2233%22/%3E</map>
       </controlProperties>
     </control>
     <control controlID="34" controlTypeID="com.balsamiq.mockups::Label" x="372" y="429" w="-1" h="-1" measuredW="143" measuredH="26" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>16777215</color>
+        <href>activit%E9Defi%26bm%3Bactivit%E9Defi.bmml%26bm%3Bactivit%E9Defi.bmml%26bm%3Bactivit%E9Defi.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2269%2C377%2C212%2C403%22%20href%3D%22activit%25C3%25A9Defi.bmml%22%20alt%3D%22activit%E9Defi%22%20id%3D%2234%22/%3E</map>
         <size>18</size>
         <text>D%E9marrer%20le%20d%E9fi</text>
       </controlProperties>
