@@ -36,9 +36,9 @@
         <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22108%2C46%2C124%2C62%22%20href%3D%22index.bmml%22%20alt%3D%22index%22%20id%3D%2244%22/%3E</map>
       </controlProperties>
     </control>
-    <control controlID="45" controlTypeID="com.balsamiq.mockups::Image" x="620" y="169" w="85" h="85" measuredW="118" measuredH="118" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Image" x="621" y="159" w="107" h="105" measuredW="249" measuredH="238" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../Challenge%2520me/s.png</src>
+        <src>./image.png</src>
         <text/>
       </controlProperties>
     </control>
@@ -165,6 +165,12 @@
         <color>16777215</color>
         <size>16</size>
         <text>SUCCES%20OBTENUS%20PAR%20LE%20COUREUR</text>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::Label" x="1149" y="146" w="-1" h="-1" measuredW="36" measuredH="21" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10066329</color>
+        <text>%E9diter</text>
       </controlProperties>
     </control>
   </controls>

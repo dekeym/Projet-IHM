@@ -19,7 +19,7 @@
         <href>index%26bm%3Bindex.bmml%26bm%3Bindex.bmml%26bm%3Bindex.bmml</href>
         <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C41%2C173%2C67%22%20href%3D%22index.bmml%22%20alt%3D%22index%22%20id%3D%2210%22/%3E</map>
         <size>18</size>
-        <text>Profil</text>
+        <text>Profil%20%E9quipe</text>
       </controlProperties>
     </control>
     <control controlID="44" controlTypeID="com.balsamiq.mockups::Icon" x="572" y="109" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="-1">
@@ -113,9 +113,11 @@
         <text>Nom%20Equipe</text>
       </controlProperties>
     </control>
-    <control controlID="66" controlTypeID="com.balsamiq.mockups::Image" x="751" y="177" w="47" h="48" measuredW="118" measuredH="118" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Image" x="751" y="177" w="47" h="48" measuredW="249" measuredH="238" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../Challenge%2520me/s.png</src>
+        <href>profil%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22287%2C114%2C334%2C162%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%2266%22/%3E</map>
+        <src>./image.png</src>
         <text/>
       </controlProperties>
     </control>
@@ -123,12 +125,16 @@
       <controlProperties>
         <align>center</align>
         <color>0</color>
+        <href>profil%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22274%2C172%2C347%2C185%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%2267%22/%3E</map>
         <text>Coureur%20%231</text>
       </controlProperties>
     </control>
-    <control controlID="68" controlTypeID="com.balsamiq.mockups::Image" x="830" y="177" w="47" h="48" measuredW="118" measuredH="118" zOrder="19" locked="false" isInGroup="-1">
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::Image" x="830" y="177" w="47" h="48" measuredW="249" measuredH="238" zOrder="19" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../Challenge%2520me/s.png</src>
+        <href>profil%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22366%2C114%2C413%2C162%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%2268%22/%3E</map>
+        <src>./image.png</src>
         <text/>
       </controlProperties>
     </control>
@@ -136,12 +142,16 @@
       <controlProperties>
         <align>center</align>
         <color>0</color>
+        <href>profil%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22353%2C172%2C426%2C185%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%2269%22/%3E</map>
         <text>Coureur%20%232</text>
       </controlProperties>
     </control>
-    <control controlID="70" controlTypeID="com.balsamiq.mockups::Image" x="912" y="177" w="47" h="48" measuredW="118" measuredH="118" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::Image" x="912" y="177" w="47" h="48" measuredW="249" measuredH="238" zOrder="21" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../Challenge%2520me/s.png</src>
+        <href>profil%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22448%2C114%2C495%2C162%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%2270%22/%3E</map>
+        <src>./image.png</src>
         <text/>
       </controlProperties>
     </control>
@@ -149,12 +159,16 @@
       <controlProperties>
         <align>center</align>
         <color>0</color>
+        <href>profil%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22435%2C172%2C508%2C185%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%2271%22/%3E</map>
         <text>Coureur%20%233</text>
       </controlProperties>
     </control>
-    <control controlID="72" controlTypeID="com.balsamiq.mockups::Image" x="994" y="177" w="47" h="48" measuredW="118" measuredH="118" zOrder="23" locked="false" isInGroup="-1">
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Image" x="994" y="177" w="47" h="48" measuredW="249" measuredH="238" zOrder="23" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../Challenge%2520me/s.png</src>
+        <href>profil%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22530%2C114%2C577%2C162%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%2272%22/%3E</map>
+        <src>./image.png</src>
         <text/>
       </controlProperties>
     </control>
@@ -162,12 +176,16 @@
       <controlProperties>
         <align>center</align>
         <color>0</color>
+        <href>profil%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22517%2C172%2C590%2C185%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%2273%22/%3E</map>
         <text>Coureur%20%234</text>
       </controlProperties>
     </control>
-    <control controlID="74" controlTypeID="com.balsamiq.mockups::Image" x="1076" y="177" w="47" h="48" measuredW="118" measuredH="118" zOrder="25" locked="false" isInGroup="-1">
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Image" x="1076" y="177" w="47" h="48" measuredW="249" measuredH="238" zOrder="25" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../Challenge%2520me/s.png</src>
+        <href>profil%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22612%2C114%2C659%2C162%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%2274%22/%3E</map>
+        <src>./image.png</src>
         <text/>
       </controlProperties>
     </control>
@@ -175,6 +193,8 @@
       <controlProperties>
         <align>center</align>
         <color>0</color>
+        <href>profil%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml%26bm%3Bprofil.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22599%2C172%2C672%2C185%22%20href%3D%22profil.bmml%22%20alt%3D%22profil%22%20id%3D%2275%22/%3E</map>
         <text>Coureur%20%235</text>
       </controlProperties>
     </control>
