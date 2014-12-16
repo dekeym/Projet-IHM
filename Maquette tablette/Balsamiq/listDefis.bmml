@@ -328,13 +328,13 @@
         <color>40463</color>
       </controlProperties>
     </control>
-    <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="684" y="462" w="-1" h="-1" measuredW="106" measuredH="20" zOrder="40" locked="false" isInGroup="-1">
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="660" y="462" w="-1" h="-1" measuredW="139" measuredH="20" zOrder="40" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <bold>true</bold>
         <color>16777215</color>
         <size>12</size>
-        <text>Plannifier%20ce%20d%E9fis</text>
+        <text>Informations%20sur%20ce%20d%E9fi</text>
         <underline>false</underline>
       </controlProperties>
     </control>
