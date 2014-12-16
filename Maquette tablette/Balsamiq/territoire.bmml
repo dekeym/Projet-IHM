@@ -37,7 +37,7 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="1098" y="161" w="-1" h="-1" measuredW="26" measuredH="28" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="1096" y="161" w="-1" h="-1" measuredW="26" measuredH="28" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <align>right</align>
         <bold>true</bold>
@@ -47,12 +47,12 @@
         <underline>false</underline>
       </controlProperties>
     </control>
-    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="1083" y="183" w="-1" h="-1" measuredW="54" measuredH="20" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="1096" y="184" w="-1" h="-1" measuredW="28" measuredH="20" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <align>right</align>
         <color>3355443</color>
         <size>12</size>
-        <text>territoires</text>
+        <text>d%E9fis</text>
         <underline>false</underline>
       </controlProperties>
     </control>
@@ -100,13 +100,13 @@
         <color>6710886</color>
       </controlProperties>
     </control>
-    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="950" y="241" w="-1" h="-1" measuredW="203" measuredH="22" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="955" y="241" w="-1" h="-1" measuredW="186" measuredH="22" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <bold>true</bold>
         <color>16777215</color>
         <size>14</size>
-        <text>Liste%20des%20territoires%20contr%F4l%E9s</text>
+        <text>Liste%20des%20d%E9fis%20du%20territoire</text>
         <underline>false</underline>
       </controlProperties>
     </control>
