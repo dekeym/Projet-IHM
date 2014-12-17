@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.challengeme.MainActivity" >
+
+    <ImageView
+        android:id="@+id/logoChallengeMe"
+        android:layout_width="400dp"
+        android:layout_height="91dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/challengeme" />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#085394"
+        android:text="ACCEDER A L&apos;HISTORIQUE"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/logoChallengeMe"
+        android:layout_marginTop="42dp"
+        android:background="#009e0f"
+        android:gravity="center"
+        android:text="ACTIVITE DURANT VOTRE ABSENCE"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/userHistoryTitle"
+        android:layout_width="480dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mainTitle"
+        android:background="#c7c7c7"
+        android:gravity="center"
+        android:text="VOS 5 DERNIERES ACTIVITES"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/teamHistoryTitle"
+        android:layout_width="480dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mainTitle"
+        android:background="#c7c7c7"
+        android:gravity="center"
+        android:text="LES 5 DERNIERES ACTIVITES DE VOTRE EQUIPE"
+        android:textSize="11sp" />
+
+    <ListView
+        android:id="@+id/listUserHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/history"
+        android:layout_alignRight="@+id/userHistoryTitle"
+        android:layout_below="@+id/userHistoryTitle" >
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/listTeamHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/history"
+        android:layout_alignLeft="@+id/teamHistoryTitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/listUserHistory" >
+
+    </ListView>
+
+</RelativeLayout>

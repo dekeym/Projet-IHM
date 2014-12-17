@@ -1,0 +1,20 @@
+package com.example.android.challengemestructure;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.example.android.navigationdrawerexample.R;
+
+
+public class ListCourses {
+	List<Course> listeCourses = new ArrayList<Course>();
+	
+	public ListCourses(){
+		listCourses.add(new Course("defi", "12/12/2014", "17:30", "07km", "00:31:00", R.drawable.earth));
+	
+	}
+	
+	public List<Music> getListeMusic(){
+		return listeMusic;
+	}
+}

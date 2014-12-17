@@ -1,0 +1,29 @@
+package com.example.android.challengemestructure;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class ListCourses {
+	List<Course> listeMusic = new ArrayList<Course>();
+	
+	public ListMusic(){
+		
+		listeMusic.add(new Music("David Guetta", "Memories", R.drawable.dg));
+		listeMusic.add(new Music("Nirvana", "Smells Like Teen Spirit", R.drawable.ni));
+		listeMusic.add(new Music("Robin Des Bois", "Ne renoncez jamains", R.drawable.rdb));
+		listeMusic.add(new Music("Sean Paul", "She Doesn't Mind", R.drawable.sp));
+		listeMusic.add(new Music("David Guetta", "Memories", R.drawable.dg));
+		listeMusic.add(new Music("Nirvana", "Smells Like Teen Spirit", R.drawable.ni));
+		listeMusic.add(new Music("Robin Des Bois", "Ne renoncez jamains", R.drawable.rdb));
+		listeMusic.add(new Music("Sean Paul", "She Doesn't Mind", R.drawable.sp));
+		listeMusic.add(new Music("David Guetta", "Memories", R.drawable.dg));
+		listeMusic.add(new Music("Nirvana", "Smells Like Teen Spirit", R.drawable.ni));
+		listeMusic.add(new Music("Robin Des Bois", "Ne renoncez jamains", R.drawable.rdb));
+		listeMusic.add(new Music("Sean Paul", "She Doesn't Mind", R.drawable.sp));
+	}
+	
+	public List<Music> getListeMusic(){
+		return listeMusic;
+	}
+}

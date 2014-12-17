@@ -1,0 +1,47 @@
+package com.example.android.challengeme;
+
+import java.util.List;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+import com.example.android.challengemestructure.Course;
+
+public class CustomListArrayAdapter extends ArrayAdapter<Music>{
+	Context context;
+	private int layoutResourceId;
+	List<Music> listeMusic;
+	
+	public CustomListArrayAdapter(Context context, int resource, List<Music> list) {
+		super(context, resource, list);
+		this.context = context;
+		this.listeMusic = list;
+		this.layoutResourceId = resource;
+	}
+	
+	@Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+		View view = convertView;
+		
+		if (view == null) {
+			LayoutInflater inflater = (LayoutInflater) context
+			        .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+			view = inflater.inflate(layoutResourceId, parent, false);
+		}
+		TextView auteur = (TextView) view.findViewById(R.id.auteurText);			
+		TextView titre = (TextView) view.findViewById(R.id.titreText);
+		ImageView image = (ImageView) view.findViewById(R.id.imageAlbum);
+		
+		Music musicItem = listeMusic.get(position);
+		auteur.setText(musicItem.getAuteur());
+		titre.setText(musicItem.getTitle());
+		image.setImageResource(musicItem.getImageId());
+		
+		
+		return view;
+	}
+}

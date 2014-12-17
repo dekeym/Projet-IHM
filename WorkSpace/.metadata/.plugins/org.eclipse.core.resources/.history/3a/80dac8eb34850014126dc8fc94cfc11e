@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="74dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_x="106dp"
+        android:layout_y="37dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/date"
+        android:layout_below="@+id/date"
+        android:layout_marginTop="11dp"
+        android:layout_x="106dp"
+        android:layout_y="64dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/distancekm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/date"
+        android:layout_marginLeft="78dp"
+        android:layout_toRightOf="@+id/date"
+        android:layout_x="250dp"
+        android:layout_y="37dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/distancekm"
+        android:layout_alignTop="@+id/time"
+        android:layout_x="250dp"
+        android:layout_y="64dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/timevar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/date"
+        android:layout_marginLeft="90dp"
+        android:layout_toRightOf="@+id/distancekm"
+        android:layout_x="400dp"
+        android:layout_y="37dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/timetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/timevar"
+        android:layout_alignTop="@+id/time"
+        android:layout_x="400dp"
+        android:layout_y="64dp"
+        android:text="TextView" />
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.challengeme.MainActivity" >
+
+    <Button
+        android:id="@+id/activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/logoChallengeMe"
+        android:layout_marginTop="37dp"
+        android:background="#009e0f"
+        android:clickable="false"
+        android:text="ACTIVITE DURANT VOTRE ABSENCE"
+        android:textColor="@android:color/white" />
+
+    
+    <ImageView android:id="@+id/logoChallengeMe" android:layout_width="400dp" android:layout_height="91dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="34dp" android:src="@drawable/challengeme" /><Button
+        android:id="@+id/history"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#085394"
+        android:text="ACCEDER A L&apos;HISTORIQUE"
+        android:textSize="12sp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/activity2"
+        android:layout_width="480dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/activity"
+        android:clickable="false"
+        android:text="VOS DERNIERES ACTIVITES"
+        android:textSize="12sp" />
+    
+    <ListView
+        android:id="@+id/listActivity2"
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/history"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/activity" >
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/listActivity1"
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/activity2" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/activity"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="62dp"
+        android:background="#009e0f"
+        android:text="ACTIVITE DURANT VOTRE ABSENCE"
+        android:textSize="20sp"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
