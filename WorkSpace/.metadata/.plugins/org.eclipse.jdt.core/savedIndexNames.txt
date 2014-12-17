@@ -1,5 +1,8 @@
 INDEX VERSION 1.126+C:\Users\Stephane\Desktop\BACK0000000\STRI\STRI2015\PROJET IHM\Projet-IHM\WorkSpace\.metadata\.plugins\org.eclipse.jdt.core
-2576066016.index
-2712525089.index
-2910082113.index
 2128296346.index
+960121667.index
+2712525089.index
+3561963017.index
+732674934.index
+2910082113.index
+2576066016.index

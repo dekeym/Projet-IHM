@@ -25,15 +25,9 @@ public class MyListAdapter extends ArrayAdapter<Course> {
 		this.layoutResourceId = resource;
 	}
 	
-	public void registerClickCallBack ()
-	{
-		
-	}
-	
-	
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-
+		// Make sure we have a view to work with
 		View itemView = convertView;
 		
 		if (itemView == null ) {
