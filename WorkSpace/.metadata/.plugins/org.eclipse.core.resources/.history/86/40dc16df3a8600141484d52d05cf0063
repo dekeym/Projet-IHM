@@ -1,0 +1,195 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.challengeme.MainActivity" >
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="30dp"
+        android:background="#009e0f"
+        android:gravity="center"
+        android:text="SUCCES OBTENUS PAR LE COUREUR"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainTitle"
+        android:background="#333333" >
+
+        <LinearLayout
+            android:layout_width="2004dp"
+            android:layout_height="218dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/achv1"
+                android:layout_width="250dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="27dp"
+                android:src="@drawable/dstdeux" />
+
+            <ImageView
+                android:id="@+id/achv2"
+                android:layout_width="250dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="27dp"
+                android:src="@drawable/dstcinq" />
+
+            <ImageView
+                android:id="@+id/achv3"
+                android:layout_width="250dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="27dp"
+                android:src="@drawable/dstsept" />
+
+            <ImageView
+                android:id="@+id/achv4"
+                android:layout_width="250dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="27dp"
+                android:src="@drawable/dstdix" />
+
+            <ImageView
+                android:id="@+id/achv5"
+                android:layout_width="250dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="27dp"
+                android:src="@drawable/speed" />
+
+            <ImageView
+                android:id="@+id/achv6"
+                android:layout_width="250dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="27dp"
+                android:src="@drawable/marathon" />
+
+            <ImageView
+                android:id="@+id/achv7"
+                android:layout_width="250dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="27dp"
+                android:src="@drawable/marathon" />
+
+            <ImageView
+                android:id="@+id/achv8"
+                android:layout_width="250dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="27dp"
+                android:src="@drawable/marathon" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/club" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="31dp"
+        android:layout_toRightOf="@+id/imageView1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="125dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgCoureur1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/image" />
+
+                <TextView
+                    android:id="@+id/coureur1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Steedy Spiderman" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="125dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgCoureur2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/image" />
+
+                <TextView
+                    android:id="@+id/coureur2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Steedy Spiderman" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="125dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgCoureur3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/image" />
+
+                <TextView
+                    android:id="@+id/coureur3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Steedy Spiderman" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="125dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgCoureur4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/image" />
+
+                <TextView
+                    android:id="@+id/coureur4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Steedy Spiderman" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

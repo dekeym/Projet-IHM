@@ -21,13 +21,17 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
     private DrawerLayout mDrawerLayout;
@@ -39,7 +43,9 @@ public class MainActivity extends Activity {
     private String[] menuTitles;
     
     private MyListAdapter adapterList;
-    private ListCourses historique = new ListCourses();   
+    private MyListAdapterHdefis adapterListDefis;
+    private ListCourses historique;   
+    private ListCourses listDefis;  
       
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -129,38 +135,55 @@ public class MainActivity extends Activity {
     }
 
     private void selectItem(int position) {
-        adapterList = new MyListAdapter(this, R.layout.rowlayout, historique.getListeCourses());
-    	
+          	
         // update the main content by replacing fragments
-        Fragment fragment = new PlanetFragment();
+        Fragment fragment = new AccueilFragment();
         Bundle args = new Bundle();
-        if (position !=2) {
-        	args.putInt(PlanetFragment.ARG_PLANET_NUMBER, position);
-            fragment.setArguments(args);
+        FragmentManager fragmentManager = getFragmentManager();
+        switch (position)
+        {
+	        case 1:
+	        	historique = new ListCourses("train");
+	        	listDefis = new ListCourses("compet");
+	        	adapterList = new MyListAdapter(this, R.layout.rowlayout, historique.getListeCourses());
+	        	adapterListDefis = new MyListAdapterHdefis(this, R.layout.rowlayoutdefis, listDefis.getListeCourses());
+	        	fragment = new HistoricFragment();
+	        	createFragment(args, fragment, fragmentManager, position);
+	        	
+	            break;
+	                
+	        case 4:
+	        	fragment = new ProfilFragment();
+	        	createFragment(args, fragment, fragmentManager, position);
+	        	
+	            break;
+	            	            
+	        case 6:
+	        	fragment = new ProfilEquipeFragment();
+	        	createFragment(args, fragment, fragmentManager, position);
 
-            FragmentManager fragmentManager = getFragmentManager();
-            fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
-
-            // update selected item and title, then close the drawer
-            mDrawerList.setItemChecked(position, true);
-            setTitle(menuTitles[position]);
-            mDrawerLayout.closeDrawer(mDrawerList);
-       
-        }else{
- 
-            Fragment fragmented = new PlanetFragmented();
-        	args.putInt(PlanetFragmented.ARG_PLANET_NUMBER, position);
-        	fragmented.setArguments(args);
-
-            FragmentManager fragmentManager = getFragmentManager();
-            fragmentManager.beginTransaction().replace(R.id.content_frame, fragmented).commit();
-            
-            // update selected item and title, then close the drawer
-            mDrawerList.setItemChecked(position, true);
-            setTitle(menuTitles[position]);
-            mDrawerLayout.closeDrawer(mDrawerList);
+	            break;
+	            
+	        default:
+	        	historique = new ListCourses("train");
+	        	adapterList = new MyListAdapter(this, R.layout.rowlayout, historique.getListeCourses());
+	        	args.putInt(AccueilFragment.ARG_NUM_PAGE, position);
+	        	createFragment(args, fragment, fragmentManager, position);
         }
         
+    }
+    
+    public void createFragment(Bundle args, Fragment fragment, FragmentManager fragmentManager, int position)
+    {
+    	args.putInt(AccueilFragment.ARG_NUM_PAGE, position);
+        fragment.setArguments(args);
+
+        fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
+
+        // update selected item and title, then close the drawer
+        mDrawerList.setItemChecked(position, true);
+        setTitle(menuTitles[position]);
+        mDrawerLayout.closeDrawer(mDrawerList);
     }
 
     @Override
@@ -169,10 +192,6 @@ public class MainActivity extends Activity {
         getActionBar().setTitle(mTitle);
     }
 
-    /**
-     * When using the ActionBarDrawerToggle, you must call it during
-     * onPostCreate() and onConfigurationChanged()...
-     */
 
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
@@ -191,10 +210,10 @@ public class MainActivity extends Activity {
     /**
      * Fragment that appears in the "content_frame", shows a planet
      */
-    public class PlanetFragment extends Fragment {
-        public static final String ARG_PLANET_NUMBER = "planet_number";
+    public class AccueilFragment extends Fragment {
+        public static final String ARG_NUM_PAGE = "num_page";
 
-        public PlanetFragment() {
+        public AccueilFragment() {
             // Empty constructor required for fragment subclasses
         }
 
@@ -202,7 +221,7 @@ public class MainActivity extends Activity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_accueil, container, false);
-            int i = getArguments().getInt(ARG_PLANET_NUMBER);
+            int i = getArguments().getInt(ARG_NUM_PAGE);
             String planet = getResources().getStringArray(R.array.menu)[i];
          
             // récupération de la liste teamActivity sur le layout
@@ -212,26 +231,237 @@ public class MainActivity extends Activity {
             // récupération de la liste teamActivity sur le layout
             ListView userActivity = (ListView) rootView.findViewById(R.id.listUserHistory);
             userActivity.setAdapter(adapterList);
-           
+            
+            OnClickListener l = new OnClickListener() 
+            {
+            	public void onClick(View v)
+            	{
+            		Bundle args = new Bundle();
+            		Fragment historique = new HistoricFragment();
+                	args.putInt(ProfilFragment.ARG_NUM_PAGE, 1);
+                	historique.setArguments(args);
+
+                    FragmentManager fragmentManager = getFragmentManager();
+                    fragmentManager.beginTransaction().replace(R.id.content_frame, historique).commit();
+                    
+                    // update selected item and title, then close the drawer
+                    mDrawerList.setItemChecked(1, true);
+                    setTitle(menuTitles[1]);
+                    mDrawerLayout.closeDrawer(mDrawerList);
+            		
+            	}
+            };
+            
+            Button btnHistorique = (Button) rootView.findViewById(R.id.history);
+            btnHistorique.setOnClickListener(l);
+            
+            ListView x = (ListView) rootView.findViewById(R.id.listUserHistory);
+    		x.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+    			ListCourses listCourses = new ListCourses("duo");    			
+    			public void onItemClick(AdapterView<?> parent, View viewClicked, int position, long id)
+    			{
+    				Bundle args = new Bundle();
+            		Fragment activity = new ActivityFragment();
+                	args.putInt(ProfilFragment.ARG_NUM_PAGE, 1);
+                	activity.setArguments(args);
+
+                    FragmentManager fragmentManager = getFragmentManager();
+                    fragmentManager.beginTransaction().replace(R.id.content_frame, activity).commit();
+                    
+                    // update selected item and title, then close the drawer
+                    mDrawerList.setItemChecked(-1, true);
+                    setTitle("Activité");
+                    mDrawerLayout.closeDrawer(mDrawerList);
+    			}
+    		});
+            
+            
             return rootView;
         }
     }
     
-    public static class PlanetFragmented extends Fragment {
-        public static final String ARG_PLANET_NUMBER = "planet_number";
+    public class ProfilFragment extends Fragment {
+        public static final String ARG_NUM_PAGE = "page_number";
 
-        public PlanetFragmented() {
+        public ProfilFragment() {
             // Empty constructor required for fragment subclasses
         }
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_planeted, container, false);
-            int i = getArguments().getInt(ARG_PLANET_NUMBER);
+            View rootView = inflater.inflate(R.layout.fragment_profil, container, false);
+            int i = getArguments().getInt(ARG_NUM_PAGE);
+            String item = getResources().getStringArray(R.array.menu)[i];
+              		
+            return rootView;
+        }
+        
+    }
+    
+    public class ProfilEquipeFragment extends Fragment {
+        public static final String ARG_NUM_PAGE = "page_number";
+
+        public ProfilEquipeFragment() {
+            // Empty constructor required for fragment subclasses
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_profilequipe, container, false);
+            int i = getArguments().getInt(ARG_NUM_PAGE);
+            String item = getResources().getStringArray(R.array.menu)[i];
+            
+            OnClickListener l = new OnClickListener() 
+            {
+            	public void onClick(View v)
+            	{
+            		Bundle args = new Bundle();
+            		Fragment profil = new ProfilFragment();
+                	args.putInt(ProfilFragment.ARG_NUM_PAGE, 4);
+                	profil.setArguments(args);
+
+                    FragmentManager fragmentManager = getFragmentManager();
+                    fragmentManager.beginTransaction().replace(R.id.content_frame, profil).commit();
+                    
+                    // update selected item and title, then close the drawer
+                    mDrawerList.setItemChecked(4, true);
+                    setTitle(menuTitles[4]);
+                    mDrawerLayout.closeDrawer(mDrawerList);
+            		
+            	}
+            };
+            
+            LinearLayout linlay1 = (LinearLayout) rootView.findViewById(R.id.linlay1);
+            LinearLayout linlay2 = (LinearLayout) rootView.findViewById(R.id.linlay2);
+            LinearLayout linlay3 = (LinearLayout) rootView.findViewById(R.id.linlay3);
+            LinearLayout linlay4 = (LinearLayout) rootView.findViewById(R.id.linlay4);
+            LinearLayout linlay5 = (LinearLayout) rootView.findViewById(R.id.linlay5);
+            LinearLayout linlay6 = (LinearLayout) rootView.findViewById(R.id.linlay6);
+            LinearLayout linlay7 = (LinearLayout) rootView.findViewById(R.id.linlay7);
+            
+            linlay1.setClickable(true);
+            linlay2.setClickable(true);
+            linlay3.setClickable(true);
+            linlay4.setClickable(true);
+            linlay5.setClickable(true);
+            linlay6.setClickable(true);
+            linlay7.setClickable(true);
+            
+            linlay1.setOnClickListener(l);
+            linlay2.setOnClickListener(l);
+            linlay3.setOnClickListener(l);
+            linlay4.setOnClickListener(l);
+            linlay5.setOnClickListener(l);
+            linlay6.setOnClickListener(l);
+            linlay7.setOnClickListener(l);
+             
+            return rootView;
+        }
+        
+    }
+
+    public class HistoricFragment extends Fragment {
+        public static final String ARG_NUM_PAGE = "num_page";
+
+        public HistoricFragment() {
+            // Empty constructor required for fragment subclasses
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_history, container, false);
+            int i = getArguments().getInt(ARG_NUM_PAGE);
             String planet = getResources().getStringArray(R.array.menu)[i];
+         
+            // récupération de la liste historique entrainement sur le layout
+            ListView userActivity = (ListView) rootView.findViewById(R.id.listHistoryUser);
+            userActivity.setAdapter(adapterList);   
+            
+            // récupération de la liste historique compet sur le layout
+            ListView userActivityCompet = (ListView) rootView.findViewById(R.id.listHistoryCompet);
+            userActivityCompet.setAdapter(adapterListDefis);   
 
 
+            ListView listHistoryUser = (ListView) rootView.findViewById(R.id.listHistoryUser);
+            listHistoryUser.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+    			ListCourses listCourses = new ListCourses("train");    			
+    			public void onItemClick(AdapterView<?> parent, View viewClicked, int position, long id)
+    			{
+    				Bundle args = new Bundle();
+            		Fragment activity = new ActivityFragment();
+                	args.putInt(ProfilFragment.ARG_NUM_PAGE, 1);
+                	activity.setArguments(args);
+
+                    FragmentManager fragmentManager = getFragmentManager();
+                    fragmentManager.beginTransaction().replace(R.id.content_frame, activity).commit();
+                    
+                    // update selected item and title, then close the drawer
+                    mDrawerList.setItemChecked(-1, true);
+                    setTitle("Activité");
+                    mDrawerLayout.closeDrawer(mDrawerList);
+    			}
+    		});
+            
+            ListView listHistoryCompet = (ListView) rootView.findViewById(R.id.listHistoryCompet);
+            listHistoryCompet.setOnItemClickListener(new AdapterView.OnItemClickListener() {  			
+    			public void onItemClick(AdapterView<?> parent, View viewClicked, int position, long id)
+    			{
+    				Bundle args = new Bundle();
+            		Fragment activityDefiWin = new ActivityDefiWinFragment();
+                	args.putInt(ProfilFragment.ARG_NUM_PAGE, 1);
+                	activityDefiWin.setArguments(args);
+
+                    FragmentManager fragmentManager = getFragmentManager();
+                    fragmentManager.beginTransaction().replace(R.id.content_frame, activityDefiWin).commit();
+                    
+                    // update selected item and title, then close the drawer
+                    mDrawerList.setItemChecked(-1, true);
+                    setTitle("Défi réussi");
+                    mDrawerLayout.closeDrawer(mDrawerList);
+    			}
+    		});
+            
+            
+            return rootView;
+        }
+    }
+
+    public class ActivityFragment extends Fragment {
+        public static final String ARG_NUM_PAGE = "page_number";
+
+        public ActivityFragment() {
+            // Empty constructor required for fragment subclasses
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_activity, container, false);
+            int i = getArguments().getInt(ARG_NUM_PAGE);
+            String item = getResources().getStringArray(R.array.menu)[i];
+              		
+            return rootView;
+        }
+        
+    }
+    
+    public class ActivityDefiWinFragment extends Fragment {
+        public static final String ARG_NUM_PAGE = "page_number";
+
+        public ActivityDefiWinFragment() {
+            // Empty constructor required for fragment subclasses
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_activitydefiwin, container, false);
+            int i = getArguments().getInt(ARG_NUM_PAGE);
+            String item = getResources().getStringArray(R.array.menu)[i];
+              		
             return rootView;
         }
         

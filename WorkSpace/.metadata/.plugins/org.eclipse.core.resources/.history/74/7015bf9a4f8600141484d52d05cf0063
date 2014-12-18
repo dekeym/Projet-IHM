@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/historyUser"
+        android:layout_width="478dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:background="#333333"
+        android:gravity="center"
+        android:text="Historique des entraînements"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+    
+    <ListView
+        android:id="@+id/listHistoryUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/historyUser"
+        android:layout_below="@+id/historyUser" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/historyCompet"
+        android:layout_width="478dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#333333"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Historique des entraînements"
+        android:textSize="14sp" />
+    
+    <ListView
+        android:id="@+id/listHistoryCompet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/historyCompet"
+        android:layout_alignRight="@+id/historyCompet"
+        android:layout_alignTop="@+id/listHistoryUser" >
+
+    </ListView>    
+    
+
+</RelativeLayout>

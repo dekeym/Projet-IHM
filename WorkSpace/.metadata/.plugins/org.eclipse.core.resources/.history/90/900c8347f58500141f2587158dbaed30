@@ -1,0 +1,12 @@
+package com.example.android.challengemestructure;
+
+public class Course {
+	private String idCourse;
+	private String typeCourse;
+	private String dateCourse;
+	private String heureCourse;
+	private String distance;
+	private String duree;
+	private int iconID;
+
+}

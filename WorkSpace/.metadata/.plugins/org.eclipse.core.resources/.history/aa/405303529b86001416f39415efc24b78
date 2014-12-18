@@ -1,0 +1,56 @@
+package com.example.android.challengeme;
+
+import java.util.List;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.example.android.challengemestructure.Course;
+import com.example.android.navigationdrawerexample.R;
+
+public class MyListAdapterHdefis extends ArrayAdapter<Course> {
+	Context context;
+	private int layoutResourceId;
+	List<Course> listeDefis;
+	
+	public MyListAdapterHdefis(Context context, int resource, List<Course> list) {
+		super(context, resource, list);
+		this.context = context;
+		this.listeDefis = list;
+		this.layoutResourceId = resource;
+	}
+	
+	public View getView(int position, View convertView, ViewGroup parent) {
+
+		View itemView = convertView;
+		
+		if (itemView == null ) {
+			LayoutInflater inflater = (LayoutInflater) context
+			        .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+			itemView = inflater.inflate(layoutResourceId, parent, false);
+		}
+		
+		ImageView image = (ImageView) itemView.findViewById(R.id.rowLDImage);
+		TextView dateCourse = (TextView) itemView.findViewById(R.id.rowLDdateCourse);
+		TextView tempsCourse = (TextView) itemView.findViewById(R.id.rowLDDiffTempsCourse);
+		TextView distance = (TextView) itemView.findViewById(R.id.rowLDdstvar);
+		TextView status = (ImageView) itemView.findViewById(R.id.RLDstatut);
+		
+		// find the car to work with
+		Course currentCourse = listeDefis.get(position);
+		
+		image.setImageResource(currentCourse.getIconID());
+		dateCourse.setText(currentCourse.getDateCourse());
+		tempsCourse.setText(currentCourse.getDiffTime());
+		distance.setText(currentCourse.getDistance());
+		distance.setText(currentCourse.getDistance());
+		imageS.setImageResource(currentCourse.getDefiReussi());
+					
+		return itemView;
+	}
+}

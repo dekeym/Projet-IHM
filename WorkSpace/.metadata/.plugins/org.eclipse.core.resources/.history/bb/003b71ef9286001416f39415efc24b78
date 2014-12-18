@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/rowLDImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="7dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="55dp"
+        android:maxWidth="55dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/run" />
+    
+    <TextView
+        android:id="@+id/rowLDdateCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="71dp"
+        android:layout_y="4dp"
+        android:text="Date course"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#333333" />
+    
+    <TextView
+        android:id="@+id/rowLDDiffTempsCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="71dp"
+        android:layout_y="25dp"
+        android:text="Différence temps course"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#AAAAB8" />
+    
+    <TextView
+        android:id="@+id/rowLDtimevar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="280dp"
+        android:layout_y="4dp"
+        android:text="Medium Text"
+        android:textColor="#333333"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/rowLDtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="280dp"
+        android:layout_y="25dp"
+        android:textColor="#AAAAB8"
+        android:text="Durée"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="473dp"
+        android:layout_y="13dp"
+        android:text="Statut"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+</AbsoluteLayout>

@@ -1,0 +1,21 @@
+package com.example.android.challengeme;
+
+import java.util.List;
+
+import android.content.Context;
+import android.widget.ArrayAdapter;
+
+import com.example.android.challengemestructure.Course;
+
+public class MyListAdapterHdefis extends ArrayAdapter<Course> {
+	Context context;
+	private int layoutResourceId;
+	List<Course> listeDefis;
+	
+	public MyListAdapterHdefis(Context context, int resource, List<Course> list) {
+		super(context, resource, list);
+		this.context = context;
+		this.listeDefis = list;
+		this.layoutResourceId = resource;
+	}
+}

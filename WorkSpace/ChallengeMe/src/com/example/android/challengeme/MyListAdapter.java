@@ -6,9 +6,12 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.android.challengemestructure.Course;
 import com.example.android.navigationdrawerexample.R;
@@ -24,13 +27,7 @@ public class MyListAdapter extends ArrayAdapter<Course> {
 		this.listeCourses = list;
 		this.layoutResourceId = resource;
 	}
-	
-	public void registerClickCallBack ()
-	{
 		
-	}
-	
-	
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 
@@ -42,21 +39,21 @@ public class MyListAdapter extends ArrayAdapter<Course> {
 			itemView = inflater.inflate(layoutResourceId, parent, false);
 		}
 		
-		ImageView image = (ImageView) itemView.findViewById(R.id.imageView1);
+		ImageView image = (ImageView) itemView.findViewById(R.id.success);
+		TextView dateCourse = (TextView) itemView.findViewById(R.id.dateCourse);
+		TextView tempsCourse = (TextView) itemView.findViewById(R.id.tempsCourse);
 		TextView distance = (TextView) itemView.findViewById(R.id.distance);
-		TextView date = (TextView) itemView.findViewById(R.id.date);
-		TextView timevar = (TextView) itemView.findViewById(R.id.timevar);
-		TextView time = (TextView) itemView.findViewById(R.id.time);
+		TextView duree = (TextView) itemView.findViewById(R.id.timevar);
 		
 		// find the car to work with
 		Course currentCourse = listeCourses.get(position);
 		
 		image.setImageResource(currentCourse.getIconID());
-		date.setText(currentCourse.getDateCourse());
+		dateCourse.setText(currentCourse.getDateCourse());
+		tempsCourse.setText(currentCourse.getHeureCourse());
 		distance.setText(currentCourse.getDistance());
-		timevar.setText(currentCourse.getDuree());
-		time.setText(currentCourse.getHeureCourse());
-		
+		duree.setText(currentCourse.getDuree());	
+				
 		return itemView;
 	}
 }

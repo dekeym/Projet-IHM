@@ -10,3 +10,54 @@
 1418766199692	Rename field 'textView1'
 1418766496568	Rename field 'listView1'
 1418767864648	Rename field 'distance'
+1418826644926	Change Layout
+1418827969385	Rename field 'textView1'
+1418828646136	Delete element
+1418829258768	Rename resource 'fragment_planeted.xml'
+1418829349095	Delete element
+1418829351090	Delete element
+1418829352261	Delete element
+1418829353263	Delete element
+1418829366475	Delete element
+1418829369194	Delete element
+1418830030720	Rename field 'textView1'
+1418830037517	Rename field 'textView2'
+1418830046100	Rename field 'name'
+1418830572115	Rename field 'mail'
+1418850222359	Rename resource '10km.png'
+1418850270180	Rename resource '2km.png'
+1418850282296	Rename resource '5km.png'
+1418850296369	Rename resource 'dst.png'
+1418851317120	Rename resource 'dst7.png'
+1418852633967	Rename field 'imageView4'
+1418852638747	Rename field 'imageView3'
+1418852644866	Rename field 'imageView6'
+1418852652017	Rename field 'imageView2'
+1418852698782	Rename field 'imageView7'
+1418852704361	Rename field 'imageView5'
+1418852708570	Rename field 'imageView8'
+1418852713794	Rename field 'imageView9'
+1418853989360	Rename field 'textView1'
+1418856376877	Rename type 'PlanetFragment'
+1418861733781	Rename field 'listTeamHistory'
+1418861762115	Rename field 'teamHistoryTitle'
+1418861771781	Rename field 'userHistoryTitle'
+1418861786760	Rename field 'history'
+1418861802815	Rename field 'listUserHistory'
+1418862668884	Rename field 'listUserTrain'
+1418862684493	Delete element
+1418862710010	Rename field 'listUserCompet'
+1418862730887	Rename field 'competHistory'
+1418862737160	Rename field 'trainHistory'
+1418862751232	Rename field 'month'
+1418862841018	Change Layout
+1418891808880	Change Layout
+1418893374934	Rename field 'rowLDtime'
+1418895159077	Rename field 'imageView1'
+1418896200073	Rename field 'textView1'
+1418896763967	Delete element
+1418896768828	Delete element
+1418899155868	Change Layout
+1418899178822	Change Layout
+1418899437662	Change Layout
+1418900186924	Change Layout
