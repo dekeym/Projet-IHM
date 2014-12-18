@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CalendarView
+        android:id="@+id/calendarView1"
+        android:layout_width="505dp"
+        android:layout_height="match_parent" />
+    
+    <TextView
+        android:id="@+id/calendarBarre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="14dp"
+        android:background="#333333"
+        android:gravity="center"
+        android:text="Liste des défis du territoire"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

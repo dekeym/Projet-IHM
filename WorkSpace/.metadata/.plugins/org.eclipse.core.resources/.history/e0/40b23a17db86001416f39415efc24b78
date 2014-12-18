@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/rowRankImage"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="20dp"
+        android:layout_x="12dp"
+        android:layout_y="1dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="55dp"
+        android:maxWidth="55dp"
+        android:src="@drawable/image" />
+
+    <TextView
+        android:id="@+id/rowRankNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="9dp"
+        android:text="Nom coureur"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/rowRankTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="11dp"
+        android:text="Temps course"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/rowRankNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="390dp"
+        android:layout_y="7dp"
+        android:text="#1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</AbsoluteLayout>

@@ -1,0 +1,5 @@
+package com.example.android.challengemestructure;
+
+public class ListTerritoires {
+	List<Territoire> listTerritoires = new Array<Territoire>();
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/defTerritoireimageView1"
+        android:layout_width="520dp"
+        android:layout_height="420dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/defTerritoireclub"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/defTerritoireBarre"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/club" />
+
+    <LinearLayout
+        android:id="@+id/defTerritoireLinearLayout1"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/defTerritoireclub"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#085394"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/defTerritoiretextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/defTerritoiretextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Territoires contrôlés"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/defTerritoireBarre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/defTerritoireclub"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/defTerritoireimageView1"
+        android:background="#333333"
+        android:gravity="center"
+        android:text="Liste des défis du territoire"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <ListView
+        android:id="@+id/deflistTerritoire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/defTerritoireBarre"
+        android:layout_toRightOf="@+id/defTerritoireimageView1" >
+
+    </ListView>
+
+</RelativeLayout>

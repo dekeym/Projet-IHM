@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/statstextView1"
+                    android:layout_width="475dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#333333"
+                    android:gravity="center"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/statstextView2"
+                    android:layout_width="475dp"
+                    android:layout_height="50dp"
+                    android:background="#333333"
+                    android:gravity="center"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/statstextView3"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Activité 02"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView4"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Distance 13 km"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <TextView
+                    android:id="@+id/statstextView5"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Activité 02"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView6"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Distance 13 km"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+            
+            
+            
+            
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

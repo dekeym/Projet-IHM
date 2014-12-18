@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/rowRankdateCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="71dp"
+        android:layout_y="4dp"
+        android:text="Défi proposé par"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#333333" />
+    
+    <TextView
+        android:id="@+id/rowRankDiffTempsCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="71dp"
+        android:layout_y="25dp"
+        android:text="Meilleur temps course"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#AAAAB8" />
+
+    <TextView
+        android:id="@+id/rowRankdst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="237dp"
+        android:layout_y="26dp"
+        android:text="(7km)"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#AAAAB8" />
+
+    <TextView
+        android:id="@+id/rowRankcreateur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="212dp"
+        android:layout_y="4dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/rowRankNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="336dp"
+        android:layout_y="10dp"
+        android:text="#1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</AbsoluteLayout>

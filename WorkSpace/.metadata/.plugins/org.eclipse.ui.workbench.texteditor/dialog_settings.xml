@@ -3,28 +3,29 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="257" key="DIALOG_WIDTH"/>
 		<item value="345" key="DIALOG_Y_ORIGIN"/>
-		<item value="821" key="DIALOG_X_ORIGIN"/>
 		<item value="381" key="DIALOG_HEIGHT"/>
+		<item value="821" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="adapterList" key="selection"/>
+		<item value="switch" key="selection"/>
 		<list key="findhistory">
+			<item value="switch"/>
+			<item value="run"/>
+			<item value="historique"/>
+			<item value="5dp"/>
+			<item value="#e9e5dc"/>
 			<item value="adapterList"/>
 			<item value="23dp"/>
 			<item value="2dp"/>
-			<item value="margin"/>
-			<item value="4dp"/>
-			<item value="planet_number"/>
-			<item value="ARG_PLANET_NUMBER"/>
-			<item value="dst"/>
 		</list>
 		<list key="replacehistory">
+			<item value="#fefefe"/>
 			<item value="25dp"/>
 			<item value="4dp"/>
 			<item value="21dp"/>
@@ -32,7 +33,6 @@
 			<item value="page_number"/>
 			<item value="ARG_NUM_PAGE"/>
 			<item value="menuTitles"/>
-			<item value="menu"/>
 		</list>
 	</section>
 </section>

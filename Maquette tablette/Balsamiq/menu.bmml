@@ -174,8 +174,8 @@
     <control controlID="115" controlTypeID="com.balsamiq.mockups::Label" x="596" y="452" w="-1" h="-1" measuredW="73" measuredH="20" zOrder="26" locked="false" isInGroup="-1">
       <controlProperties>
         <color>0</color>
-        <href>territoire%26bm%3Bterritoire.bmml%26bm%3Bterritoire.bmml%26bm%3Bterritoire.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C389%2C205%2C409%22%20href%3D%22territoire.bmml%22%20alt%3D%22territoire%22%20id%3D%22115%22/%3E</map>
+        <href>territoires%26bm%3Bterritoires.bmml%26bm%3Bterritoires.bmml%26bm%3Bterritoires.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C389%2C205%2C409%22%20href%3D%22territoires.bmml%22%20alt%3D%22territoires%22%20id%3D%22115%22/%3E</map>
         <size>12</size>
         <text>TERRITOIRE</text>
       </controlProperties>

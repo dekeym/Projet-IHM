@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/statstextView1"
+                    android:layout_width="475dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#333333"
+                    android:gravity="center"
+                    android:text="Cette semaine"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/statstextView2"
+                    android:layout_width="475dp"
+                    android:layout_height="50dp"
+                    android:background="#333333"
+                    android:gravity="center"
+                    android:text="La semaine dernière"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/statstextView3"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Activité 02"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView4"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Distance 13 km"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <TextView
+                    android:id="@+id/statstextView5"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="Activité 02"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView6"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Distance 13 km"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/statstextView7"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Durée 00:38:14"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView8"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Calories 351 kcal"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <TextView
+                    android:id="@+id/statstextView9"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Durée 00:48:14"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView10"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Calories 451 kcal"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/statstextView11"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Vitesse max 12km/h"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView12"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Vitesse moy 10km/h"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <TextView
+                    android:id="@+id/statstextView13"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Vitesse max 11km/h"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView14"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Vitesse moy 10km/h"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/statstextView15"
+                    android:layout_width="475dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#333333"
+                    android:gravity="center"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/statstextView16"
+                    android:layout_width="475dp"
+                    android:layout_height="50dp"
+                    android:background="#333333"
+                    android:gravity="center"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/statstextView17"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Activité 02"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView18"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Distance 13 km"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <TextView
+                    android:id="@+id/statstextView19"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="Activité 02"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView20"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Distance 13 km"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/statstextView21"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Durée 00:56:14"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView22"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Calories 551 kcal"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <TextView
+                    android:id="@+id/statstextView23"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Durée 00:48:14"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView24"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Calories 451 kcal"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/statstextView25"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Vitesse max 13km/h"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView26"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Vitesse moy 10km/h"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <TextView
+                    android:id="@+id/statstextView27"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Vitesse max 11km/h"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView28"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Vitesse moy 10km/h"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/statstextView29"
+                    android:layout_width="475dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#333333"
+                    android:gravity="center"
+                    android:text="Cette année"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/statstextView30"
+                    android:layout_width="475dp"
+                    android:layout_height="50dp"
+                    android:background="#333333"
+                    android:gravity="center"
+                    android:text="L&apos;année dernière"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/statstextView31"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Activité 04"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView32"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Distance 28 km"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <TextView
+                    android:id="@+id/statstextView33"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Activité 03"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView34"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Distance 13 km"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/statstextView35"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Activité 02"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView36"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Distance 13 km"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <TextView
+                    android:id="@+id/statstextView37"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="Activité 02"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView38"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Distance 13 km"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/statstextView39"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Vitesse max 13km/h"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView40"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Vitesse moy 10km/h"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <TextView
+                    android:id="@+id/statstextView41"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Vitesse max 13km/h"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/statstextView42"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e9e5dc"
+                    android:gravity="center"
+                    android:text="Vitesse moy 10km/h"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+        
+
+    </ScrollView>
+
+</LinearLayout>

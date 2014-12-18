@@ -10,6 +10,7 @@ public class Course {
 	private int iconID;
 	private String diffTime;
 	private Boolean defiReussi;
+	private String createur;
 	
 	public Course(String idCourse, String typeCourse, String dateCourse,
 			String heureCourse, String distance, String duree, int iconID) {
@@ -24,7 +25,7 @@ public class Course {
 	}
 	
 	public Course(String idCourse, String typeCourse, String dateCourse,
-			String heureCourse, String distance, String duree, int iconID, String diffTime, Boolean defiReussi) {
+			String heureCourse, String distance, String duree, int iconID, String diffTime, Boolean defiReussi, String createur) {
 		super();
 		this.idCourse = idCourse;
 		this.typeCourse = typeCourse;
@@ -35,6 +36,7 @@ public class Course {
 		this.iconID = iconID;
 		this.diffTime = diffTime;
 		this.defiReussi = defiReussi;
+		this.createur = createur;
 	}
 
 	public String getIdCourse() {
@@ -109,6 +111,12 @@ public class Course {
 		this.defiReussi = defiReussi;
 	}
 
-	
+	public String getCreateur() {
+		return createur;
+	}
+
+	public void setCreateur(String createur) {
+		this.createur = createur;
+	}
 	
 }

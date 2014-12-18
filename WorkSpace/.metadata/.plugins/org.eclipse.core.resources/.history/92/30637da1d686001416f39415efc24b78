@@ -1,0 +1,8 @@
+package com.example.android.challengemestructure;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListCoureurs {
+	List<Coureur> listeCoureur = new ArrayList<Coureur>();
+}

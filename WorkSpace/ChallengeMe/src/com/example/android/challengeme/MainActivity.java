@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.example.android.challengemestructure.Course;
+import com.example.android.challengemestructure.ListCoureurs;
 import com.example.android.challengemestructure.ListCourses;
+import com.example.android.challengemestructure.ListTerritoires;
 import com.example.android.navigationdrawerexample.R;
 
 import android.app.Activity;
@@ -44,8 +46,14 @@ public class MainActivity extends Activity {
     
     private MyListAdapter adapterList;
     private MyListAdapterHdefis adapterListDefis;
+    private MyListAdapterDefisAutour adapterListDefis2;
+    private MyListAdapterClassement adapterListClassement;
+    private MyListAdapterTerritoire adapterListTerritoire;
+    private MyListAdapterCalendar adapterListCalendar;
     private ListCourses historique;   
     private ListCourses listDefis;  
+    private ListCoureurs listeCoureurs;
+    private ListTerritoires listeTerritoires;
       
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -151,9 +159,33 @@ public class MainActivity extends Activity {
 	        	createFragment(args, fragment, fragmentManager, position);
 	        	
 	            break;
-	                
+	            
+	        case 2:
+	        	fragment = new StatsFragment();
+	        	createFragment(args, fragment, fragmentManager, position);
+	        	
+	            break;
+	            
+	        case 3:
+	        	historique = new ListCourses("duo");
+	        	adapterListCalendar = new MyListAdapterCalendar(this, R.layout.rowlayoutcalendar, historique.getListeCourses());
+	        	fragment = new CalendarFragment();
+	        	createFragment(args, fragment, fragmentManager, position);
+	        	
+	            break;
+	            	                
 	        case 4:
 	        	fragment = new ProfilFragment();
+	        	createFragment(args, fragment, fragmentManager, position);
+	        	
+	            break;
+	            
+	        case 5:
+	        	listeCoureurs = new ListCoureurs();
+	        	adapterListClassement = new MyListAdapterClassement(this, R.layout.rowlayoutranking, listeCoureurs.getListeCoureurs());
+	        	listDefis = new ListCourses("compet");
+	        	adapterListDefis2 = new MyListAdapterDefisAutour(this, R.layout.rowlayoutdefis2, listDefis.getListeCourses());
+	        	fragment = new DefiAutourFragment();
 	        	createFragment(args, fragment, fragmentManager, position);
 	        	
 	            break;
@@ -164,9 +196,23 @@ public class MainActivity extends Activity {
 
 	            break;
 	            
+	        case 7:
+	        	listeCoureurs = new ListCoureurs();
+	        	adapterListClassement = new MyListAdapterClassement(this, R.layout.rowlayoutranking, listeCoureurs.getListeCoureurs());
+	        	listDefis = new ListCourses("compet");
+	        	adapterListDefis2 = new MyListAdapterDefisAutour(this, R.layout.rowlayoutdefis2, listDefis.getListeCourses());
+	        	listeTerritoires = new ListTerritoires();
+	        	adapterListTerritoire = new MyListAdapterTerritoire(this, R.layout.rowlayoutterritoire, listeTerritoires.getListTerritoires());
+	        	fragment = new TerritoiresFragment();
+	        	createFragment(args, fragment, fragmentManager, position);
+
+	            break;
+	            
 	        default:
 	        	historique = new ListCourses("train");
+	        	listDefis = new ListCourses("compet");
 	        	adapterList = new MyListAdapter(this, R.layout.rowlayout, historique.getListeCourses());
+	        	adapterListDefis = new MyListAdapterHdefis(this, R.layout.rowlayoutdefis, listDefis.getListeCourses());
 	        	args.putInt(AccueilFragment.ARG_NUM_PAGE, position);
 	        	createFragment(args, fragment, fragmentManager, position);
         }
@@ -207,9 +253,7 @@ public class MainActivity extends Activity {
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
 
-    /**
-     * Fragment that appears in the "content_frame", shows a planet
-     */
+ 
     public class AccueilFragment extends Fragment {
         public static final String ARG_NUM_PAGE = "num_page";
 
@@ -387,7 +431,7 @@ public class MainActivity extends Activity {
 
             ListView listHistoryUser = (ListView) rootView.findViewById(R.id.listHistoryUser);
             listHistoryUser.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-    			ListCourses listCourses = new ListCourses("train");    			
+    			
     			public void onItemClick(AdapterView<?> parent, View viewClicked, int position, long id)
     			{
     				Bundle args = new Bundle();
@@ -410,17 +454,25 @@ public class MainActivity extends Activity {
     			public void onItemClick(AdapterView<?> parent, View viewClicked, int position, long id)
     			{
     				Bundle args = new Bundle();
-            		Fragment activityDefiWin = new ActivityDefiWinFragment();
+    				Fragment activity;
+    				
+    				if (position == 1 || position == 2 ){
+    					activity = new ActivityDefiLostFragment();
+    				} else {
+    					
+    					activity = new ActivityDefiWinFragment();
+    				}
+	            		
                 	args.putInt(ProfilFragment.ARG_NUM_PAGE, 1);
-                	activityDefiWin.setArguments(args);
+                	activity.setArguments(args);
 
                     FragmentManager fragmentManager = getFragmentManager();
-                    fragmentManager.beginTransaction().replace(R.id.content_frame, activityDefiWin).commit();
+                    fragmentManager.beginTransaction().replace(R.id.content_frame, activity).commit();
                     
                     // update selected item and title, then close the drawer
                     mDrawerList.setItemChecked(-1, true);
                     setTitle("Défi réussi");
-                    mDrawerLayout.closeDrawer(mDrawerList);
+	                    mDrawerLayout.closeDrawer(mDrawerList);
     			}
     		});
             
@@ -467,4 +519,208 @@ public class MainActivity extends Activity {
         
     }
     
+    public class DefiAutourFragment extends Fragment {
+        public static final String ARG_NUM_PAGE = "page_number";
+
+        public DefiAutourFragment() {
+            // Empty constructor required for fragment subclasses
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_listdefis, container, false);
+            int i = getArguments().getInt(ARG_NUM_PAGE);
+            String item = getResources().getStringArray(R.array.menu)[i];
+            
+            ListView listDefis = (ListView) rootView.findViewById(R.id.listDefisAutour);
+            listDefis.setAdapter(adapterListDefis2);
+            
+            ListView x = (ListView) rootView.findViewById(R.id.listDefisAutour);
+    		x.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+    			
+    			public void onItemClick(AdapterView<?> parent, View viewClicked, int position, long id)
+    			{
+    				Bundle args = new Bundle();
+            		Fragment ranking = new ClassementFragment();
+                	args.putInt(ProfilFragment.ARG_NUM_PAGE, 1);
+                	ranking.setArguments(args);
+
+                    FragmentManager fragmentManager = getFragmentManager();
+                    fragmentManager.beginTransaction().replace(R.id.content_frame, ranking).commit();
+                    
+                    // update selected item and title, then close the drawer
+                    mDrawerList.setItemChecked(-1, true);
+                    setTitle("Activité");
+                    mDrawerLayout.closeDrawer(mDrawerList);
+    			}
+    		});
+                       		
+            return rootView;
+        }
+        
+    }
+    
+    public class ActivityDefiLostFragment extends Fragment {
+        public static final String ARG_NUM_PAGE = "page_number";
+
+        public ActivityDefiLostFragment() {
+            // Empty constructor required for fragment subclasses
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_activitydeflost, container, false);
+            int i = getArguments().getInt(ARG_NUM_PAGE);
+            String item = getResources().getStringArray(R.array.menu)[i];
+              		
+            return rootView;
+        }
+        
+    }
+    
+    public class StatsFragment extends Fragment {
+        public static final String ARG_NUM_PAGE = "page_number";
+
+        public StatsFragment() {
+            // Empty constructor required for fragment subclasses
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_stats, container, false);
+            int i = getArguments().getInt(ARG_NUM_PAGE);
+            String item = getResources().getStringArray(R.array.menu)[i];
+              		
+            return rootView;
+        }
+        
+    }
+
+    public class ClassementFragment extends Fragment {
+        public static final String ARG_NUM_PAGE = "page_number";
+
+        public ClassementFragment() {
+            // Empty constructor required for fragment subclasses
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_classement, container, false);
+            int i = getArguments().getInt(ARG_NUM_PAGE);
+            String item = getResources().getStringArray(R.array.menu)[i];
+              	
+            ListView listClassement = (ListView) rootView.findViewById(R.id.rankinglistView);
+            listClassement.setAdapter(adapterListClassement); 
+            
+            return rootView;
+        }
+        
+    }
+    
+    public class TerritoiresFragment extends Fragment {
+        public static final String ARG_NUM_PAGE = "page_number";
+
+        public TerritoiresFragment() {
+            // Empty constructor required for fragment subclasses
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_territoires, container, false);
+            int i = getArguments().getInt(ARG_NUM_PAGE);
+            String item = getResources().getStringArray(R.array.menu)[i];
+              	
+            ListView listTerritoires = (ListView) rootView.findViewById(R.id.listTerritoire);
+            listTerritoires.setAdapter(adapterListTerritoire); 
+            
+            ListView x = (ListView) rootView.findViewById(R.id.listTerritoire);
+    		x.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+    			
+    			public void onItemClick(AdapterView<?> parent, View viewClicked, int position, long id)
+    			{
+    				Bundle args = new Bundle();
+            		Fragment territoire = new DefisTerritoireFragment();
+                	args.putInt(ProfilFragment.ARG_NUM_PAGE, 1);
+                	territoire.setArguments(args);
+
+                    FragmentManager fragmentManager = getFragmentManager();
+                    fragmentManager.beginTransaction().replace(R.id.content_frame, territoire).commit();
+                    
+                    // update selected item and title, then close the drawer
+                    mDrawerList.setItemChecked(-1, true);
+                    setTitle("Défis du territoire");
+                    mDrawerLayout.closeDrawer(mDrawerList);
+    			}
+    		});
+            
+            return rootView;
+        }
+        
+    }
+    
+    public class DefisTerritoireFragment extends Fragment {
+        public static final String ARG_NUM_PAGE = "page_number";
+
+        public DefisTerritoireFragment() {
+            // Empty constructor required for fragment subclasses
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_defisterritoire, container, false);
+            
+            ListView listDefis = (ListView) rootView.findViewById(R.id.deflistTerritoire);
+            listDefis.setAdapter(adapterListDefis2);
+            
+            ListView x = (ListView) rootView.findViewById(R.id.deflistTerritoire);
+    		x.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+    			
+    			public void onItemClick(AdapterView<?> parent, View viewClicked, int position, long id)
+    			{
+    				Bundle args = new Bundle();
+            		Fragment ranking = new ClassementFragment();
+                	args.putInt(ProfilFragment.ARG_NUM_PAGE, 1);
+                	ranking.setArguments(args);
+
+                    FragmentManager fragmentManager = getFragmentManager();
+                    fragmentManager.beginTransaction().replace(R.id.content_frame, ranking).commit();
+                    
+                    // update selected item and title, then close the drawer
+                    mDrawerList.setItemChecked(-1, true);
+                    setTitle("Activité");
+                    mDrawerLayout.closeDrawer(mDrawerList);
+    			}
+    		});
+                       		
+            return rootView;
+        }
+        
+    }
+
+    public class CalendarFragment extends Fragment {
+        public static final String ARG_NUM_PAGE = "page_number";
+
+        public CalendarFragment() {
+            // Empty constructor required for fragment subclasses
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_calendar, container, false);
+            
+            ListView listCAL = (ListView) rootView.findViewById(R.id.CalendarlistView1);
+            listCAL.setAdapter(adapterListCalendar);
+                                  		
+            return rootView;
+        }
+        
+    }
+
 }

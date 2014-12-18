@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/defTerritoireimageView1"
+        android:layout_width="610dp"
+        android:layout_height="470dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/mapter" />
+
+    <ImageView
+        android:id="@+id/defTerritoireclub"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="18dp"
+        android:layout_toLeftOf="@+id/TerritoireLinearLayout1"
+        android:src="@drawable/club" />
+
+    <TextView
+        android:id="@+id/defTerritoireBarre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/TerritoireLinearLayout1"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@+id/TerritoireimageView1"
+        android:background="#333333"
+        android:gravity="center"
+        android:text="Liste des territoires contrôlés"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/defTerritoireLinearLayout1"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/Territoireclub"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="24dp"
+        android:background="#085394"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/defTerritoiretextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/defTerritoiretextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Territoires contrôlés"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/deflistTerritoire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TerritoireBarre"
+        android:layout_toRightOf="@+id/TerritoireimageView1" >
+
+    </ListView>
+
+</RelativeLayout>

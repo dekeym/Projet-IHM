@@ -1,0 +1,7 @@
+package com.example.android.challengemestructure;
+
+public class Coureur {
+	String nomCoureur;
+	String placeCoureur;
+	String timeCoureur;
+}

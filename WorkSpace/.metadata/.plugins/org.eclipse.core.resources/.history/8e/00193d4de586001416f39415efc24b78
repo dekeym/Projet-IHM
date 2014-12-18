@@ -1,0 +1,7 @@
+package com.example.android.challengemestructure;
+
+public class Territoire {
+	private String nomTerritoire;
+	private String nbrTerritoireControle;
+	
+}

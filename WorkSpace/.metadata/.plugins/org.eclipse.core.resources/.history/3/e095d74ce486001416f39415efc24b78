@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/TerritoireimageView1"
+        android:layout_width="570dp"
+        android:layout_height="470dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/map" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/Territoireclub"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginRight="42dp"
+        android:background="#333333"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TerritoiretextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18:30"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TerritoiretextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heure de départ"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#AAAAB8" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/Territoireclub"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="11dp"
+        android:layout_toLeftOf="@+id/linearLayout1"
+        android:src="@drawable/club" />
+
+</RelativeLayout>

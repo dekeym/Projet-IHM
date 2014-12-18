@@ -1,0 +1,9 @@
+package com.example.android.challengeme;
+
+import android.widget.ArrayAdapter;
+
+import com.example.android.challengemestructure.Course;
+
+public class MyListAdapterClassement extends ArrayAdapter<Coureur> {
+
+}

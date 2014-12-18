@@ -1,0 +1,15 @@
+package com.example.android.challengeme;
+
+import java.util.List;
+
+import android.content.Context;
+import android.widget.ArrayAdapter;
+
+import com.example.android.challengemestructure.Course;
+
+public class MyListAdapterCalendar extends ArrayAdapter<Course>{
+	Context context;
+	private int layoutResourceId;
+	List<Course> listeCourses;
+	
+}

@@ -1,0 +1,54 @@
+package com.example.android.challengeme;
+
+import java.util.List;
+
+import android.content.Context;
+import android.graphics.Color;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.example.android.challengemestructure.Coureur;
+import com.example.android.challengemestructure.Course;
+import com.example.android.navigationdrawerexample.R;
+
+public class MyListAdapterClassement extends ArrayAdapter<Coureur> {
+	Context context;
+	private int layoutResourceId;
+	List<Coureur> listeCoureurs;
+	
+	public MyListAdapterClassement(Context context, int resource, List<Coureur> list) {
+		super(context, resource, list);
+		this.context = context;
+		this.listeCoureurs = list;
+		this.layoutResourceId = resource;
+	}
+	
+	public View getView(int position, View convertView, ViewGroup parent) {
+
+		View itemView = convertView;
+		
+		if (itemView == null ) {
+			LayoutInflater inflater = (LayoutInflater) context
+			        .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+			itemView = inflater.inflate(layoutResourceId, parent, false);
+		}
+
+		TextView nom = (TextView) itemView.findViewById(R.id.rowRankNom);
+		TextView temps = (TextView) itemView.findViewById(R.id.rowRankTime);
+		TextView num = (TextView) itemView.findViewById(R.id.rowRankNum);
+		
+		// find the car to work with
+		Coureur currentCoureur = listeCoureurs.get(position);
+		
+		
+		nom.setText(currentCoureur.getNomCoureur());
+		temps.setText(currentCoureur.getTimeCoureur()());
+		num.setText(currentCoureur.getNomCoureur());
+					
+		return itemView;
+	}
+}

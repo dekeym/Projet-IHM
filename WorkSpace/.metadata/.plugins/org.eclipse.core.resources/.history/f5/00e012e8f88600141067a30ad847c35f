@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CalendarView
+        android:id="@+id/calendarView1"
+        android:layout_width="505dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/addBarre"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/calendarView1"
+        android:background="#009e0f"
+        android:gravity="center"
+        android:text="Ajouter une activité"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/competBarre"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/addBarre"
+        android:layout_below="@+id/addBarre"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="23dp"
+        android:background="#333333"
+        android:gravity="center"
+        android:text="Planning des activités"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <ListView
+        android:id="@+id/CalendarlistView1"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_alignLeft="@+id/competBarre"
+        android:layout_below="@+id/competBarre" >
+    </ListView>
+
+</RelativeLayout>

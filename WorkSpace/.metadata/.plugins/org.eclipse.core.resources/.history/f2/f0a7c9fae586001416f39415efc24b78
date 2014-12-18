@@ -1,0 +1,19 @@
+package com.example.android.challengemestructure;
+
+import java.util.List;
+
+public class ListTerritoires {
+	List<Territoire> listTerritoires = new Array<Territoire>();
+	
+	public ListTerritoires() {
+		listTerritoires.add(new Territoire("Territoire#1", "2/3"));
+		listTerritoires.add(new Territoire("Territoire#2", "2/3"));
+		listTerritoires.add(new Territoire("Territoire#3", "4/6"));
+		listTerritoires.add(new Territoire("Territoire#4", "3/5"));
+		listTerritoires.add(new Territoire("Territoire#5", "3/3"));	
+	}
+	
+	public List<Territoire> getListTerritoires() {
+		return listTerritoires;
+	}
+}
