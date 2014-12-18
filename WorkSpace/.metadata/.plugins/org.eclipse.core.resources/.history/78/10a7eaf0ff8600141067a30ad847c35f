@@ -458,10 +458,9 @@ public class MainActivity extends Activity {
     				
     				if (position == 1 || position == 2 ){
     					activity = new ActivityDefiLostFragment();
-    					setTitle("Défi manqué");
     				} else {
+    					
     					activity = new ActivityDefiWinFragment();
-    					setTitle("Défi réussi");
     				}
 	            		
                 	args.putInt(ProfilFragment.ARG_NUM_PAGE, 1);
@@ -472,7 +471,7 @@ public class MainActivity extends Activity {
                     
                     // update selected item and title, then close the drawer
                     mDrawerList.setItemChecked(-1, true);
-                    
+                    setTitle("Défi réussi");
 	                    mDrawerLayout.closeDrawer(mDrawerList);
     			}
     		});
