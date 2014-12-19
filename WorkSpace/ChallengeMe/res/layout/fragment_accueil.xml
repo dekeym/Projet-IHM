@@ -45,7 +45,7 @@
         android:layout_below="@+id/mainTitle"
         android:background="#c7c7c7"
         android:gravity="center"
-        android:text="VOS 5 DERNIERES ACTIVITES"
+        android:text="VOS DERNIERES ACTIVITES"
         android:textSize="11sp" />
 
     <TextView
@@ -56,7 +56,7 @@
         android:layout_below="@+id/mainTitle"
         android:background="#c7c7c7"
         android:gravity="center"
-        android:text="LES 5 DERNIERES ACTIVITES DE VOTRE EQUIPE"
+        android:text="LES DERNIERES ACTIVITES DE VOTRE EQUIPE"
         android:textSize="11sp" />
 
     <ListView
